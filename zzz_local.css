@@ -142,7 +142,7 @@ h3 {
 @media (min-width: 700px) {
 
     .ep_tm_menu li{
-        float: left;
+        float: left !important;
     }
 
 }
