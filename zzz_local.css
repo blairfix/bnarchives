@@ -152,7 +152,7 @@ h3 {
     }
 
     .ep_tm_eprints_logo {
-	    clear: both !important;
+	display: block !important;
     }
 
 
