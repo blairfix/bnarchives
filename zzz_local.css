@@ -12,10 +12,13 @@
  */
 
 body {
-    padding: 5 em;
+    padding: 5em;
 }
 
-bn-logo .{
+
+/*-------- banner -------------------- */
+
+.bn-logo {
     max-width: 100% !important;
     width: 600px !important;
     height: auto !important;
