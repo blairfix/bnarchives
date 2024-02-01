@@ -145,7 +145,8 @@ h3 {
 
 .creative-commons {
     text-align: center;
-    font-size: 70%;
+    font-size: 80%;
+    max-width: 300px;
 }
 
 /* responsiveness */
