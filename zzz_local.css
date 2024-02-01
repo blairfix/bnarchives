@@ -91,13 +91,17 @@ h3 {
     padding: 0px;
     border: 0px none;
     vertical-align: top;
-    margin: 0px auto;
+    display: flex;
+    justify-content: center;
 }
 
 #local_menu {
     z-index: 1;
-    margin: 0px auto;
     position: relative;
+
+    display: flex;
+    justify-content: center;
+
 }
 
 #local_menu_search {
@@ -110,9 +114,11 @@ h3 {
 
 
 .ep_tm_menu{
-   width: 100%;
-   display: table;
-   text-align: center;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
 }
 
 .ep_toolbox {
