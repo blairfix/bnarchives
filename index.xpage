@@ -1,0 +1,165 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE page SYSTEM "entities.dtd" >
+<xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
+<xpage:head>
+  <link rel="alternate" type="application/rss+xml" title="Items in {phrase('archive_name')}" href="{$config{http_cgiurl}}/latest_tool?output=RSS2"></link>
+  <link rel="alternate" type="application/atom+xml" title="Items in {phrase('archive_name')}" href="{$config{http_cgiurl}}/latest_tool?output=Atom"></link>
+  <link rel="alternate" type="application/rdf+xml" title="Repository Summary RDF+XML" href="{$config{http_cgiurl}}/export/repository/RDFXML/devel.rdf"></link>
+  <link rel="alternate" type="text/n3" title="Repository Summary RDF+N3" href="{$config{http_cgiurl}}/export/repository/RDFN3/devel.n3"></link>
+</xpage:head>
+<xpage:title>Home</xpage:title>
+<xpage:body>
+
+<div class="ep_msg_message">
+<table>
+<tbody>
+<tr>
+<td>
+Welcome to <i>The Bichler &amp; Nitzan Archives.</i> The archives contain our own publications as well as related items. You are free to view, download, email, print, web-link and web-post material by Shimshon Bichler and/or Jonathan Nitzan with explicit and due attribution of authorship and publication. Commercial use is forbidden.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<table class="front_page_table" width="100%">
+<tr>
+<td>
+<div class="ep_toolbox" ><div class="ep_toolbox_content" >
+  <table width="100%">
+	<th style="text-align:left">This site</th>
+	<tr>
+		<td width="17%"><a href="{$config{perl_url}}/latest">What's New</a> </td>
+		<td>– List items added/modified during the past 6 months</td>
+	</tr>
+        <tr>
+                <td><a href="{$config{base_url}}/overview.html">Overview</a></td>
+                <td>– Show overview and introductory material</td>
+        </tr>
+ 	<tr>
+		<td><a href="{$config{base_url}}/view/">Browse</a></td>
+		<td>– Browse items according to various categories</td>
+	</tr>
+	<tr>
+		<td><a href="{$config{perl_url}}/search/advanced">Search</a></td>
+		<td>– Search for items using a full range of fields and categories</td>
+	</tr>
+        <tr>
+                <td><a href="{$config{base_url}}/links.html">Links</a></td>
+                <td>– Visit related sites</td>
+        </tr>
+
+  </table>
+</div></div>
+</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td>
+<div class="ep_toolbox" ><div class="ep_toolbox_content" >
+  <table width="100%">
+<th style="text-align:left">CasP sites</th>
+        <tr>
+		<td width="17%"><a href="https://www.youtube.com/user/Creorder">Creorder Videos</a></td>
+		<td>– Videos of CasP conferences, presentations, talks, debates and interviews</td>
+	</tr>
+	<tr>
+		<td><a href="http://www.capitalaspower.com">Capital as Power</a></td>
+		<td>– CasP blog, forum, publications, working papers, data and events</td>
+	</tr>
+	<tr>
+		<td><a href="http://www.recasp.com">RECASP</a></td>
+		<td>– <i>Review of Capital as Power</i> (Journal)</td>
+        </tr>
+  </table>
+</div></div>
+</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td>
+<div class="ep_toolbox" ><div class="ep_toolbox_content" >
+  <table>
+<th style="text-align:left">Updates</th>
+        <tr>
+                <td>Sign-up to receive periodic alerts of new items:<br/>
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+	#mc_embed_signup {
+		clear:left; 
+		width:100%;
+		margin-top: 3px;
+		margin-bottom: 3px;
+	}
+	#mc_embed_signup input.email { 
+		font-family: sans-serif;
+		height: 25px;
+		font-size: 95%;
+	}
+	#mc_embed_signup .button {
+		font-size: 95%;
+		height: 25px;
+		line-height: 25px;
+	}
+</style>
+<div id="mc_embed_signup">
+<form action="//yorku.us13.list-manage.com/subscribe/post?u=bb99df23cb4f0749885ca4465&amp;id=7e3e7832fa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+    <div id="mc_embed_signup_scroll">
+	
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="required"/>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="bb99df23cb4f0749885ca4465&amp;id=7e3e7832fa" tabindex="-1" value=""/></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"/></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+	</td>
+        </tr>
+  </table>
+</div></div>
+</td>
+</tr>
+</table>
+<table width="100%">
+<tr>
+<td>
+<div class="ep_toolbox" ><div class="ep_toolbox_content" >
+  <table>
+<th style="text-align:left">About</th>
+        <tr>
+                <td>Shimshon Bichler teaches political economy at colleges and universities in Israel (<a href="mailto:tookie@barak.net.il">tookie@barak.net.il</a>)<br/>
+Jonathan Nitzan teaches political economy at York University in Canada (<a href="mailto:nitzan@yorku.ca">nitzan@yorku.ca</a>)</td>
+        </tr>
+  </table>
+</div></div>
+</td>
+</tr>
+</table>
+
+<div style="text-align: right">
+<span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=Atom"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=Atom">Atom</a></span>
+<span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS">RSS 1.0</a></span>
+<span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS2"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS2">RSS 2.0</a></span>
+</div>
+
+<table>
+<tr>
+<td>
+<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" title="Creative Commons">
+<img alt="{phrase('archive_name')}" width="100px" src="/images/somerights.png"/></a>
+</td>
+<td>
+   This site is licensed under a Creative Commons License (Attribution-NonCommercial-NoDeriatives).
+</td>
+</tr>
+</table>
+
+</xpage:body>
+</xpage:page>
