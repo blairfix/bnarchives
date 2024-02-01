@@ -81,7 +81,6 @@ h3 {
 }
 
 #menu {
-
     background-color: #204F76;
     background-repeat: repeat-x;
     background-position: 0px 5px;
@@ -93,17 +92,13 @@ h3 {
     border: 0px none;
     vertical-align: top;
     margin: 0px;
-
 }
 
 #local_menu {
-
     z-index: 1;
     margin: 0px auto;
-    width: 580px;
     position: relative;
     padding-left: 20px;
-
 }
 
 #local_menu_search {
