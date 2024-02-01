@@ -152,8 +152,7 @@ h3 {
     }
 
     .ep_tm_eprints_logo {
-	    float: left;
-	    clear: right !important;
+	    display: block !important;
 	    margin-left: 1em;
     }
 
