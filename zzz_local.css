@@ -98,7 +98,6 @@ h3 {
     z-index: 1;
     margin: 0px auto;
     position: relative;
-    text-align: center !important;
 }
 
 #local_menu_search {
@@ -109,6 +108,12 @@ h3 {
     position: relative;
 }
 
+
+.ep_tm_menu{
+   width: 100%;
+   display: table;
+   text-align: center;
+}
 
 .ep_toolbox {
     margin-bottom: 0px;
