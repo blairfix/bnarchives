@@ -18,6 +18,11 @@
 			<img class="bn-logo" alt="{phrase('archive_name')}" src="{$config{rel_path}}{$config{site_logo}}"/>
 		    </a>
 		</div>
+
+	<input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+
+	
 		<div id="menu">
 		    <div id="local_menu">
 			<ul class="ep_tm_menu">
