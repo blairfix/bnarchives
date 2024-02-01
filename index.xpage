@@ -155,6 +155,8 @@
 		<span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS2"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS2">RSS 2.0</a></span>
 	    </div>
 
+
+
 	    <table>
 		<tr>
 		    <td>
@@ -167,5 +169,13 @@
 		</tr>
 	    </table>
 
-	</xpage:body>
-    </xpage:page>
+
+
+	    <div style="text-align:center; max-width:450">
+
+		<img style="padding:10px 10px 10px 10px" alt="{phrase('archive_name')}" width="100px" src="/images/somerights.png"/></a>
+
+	    <p><small> This site is licensed under a Creative Commons License (Attribution-NonCommercial-NoDeriatives).</small></p>
+
+    </xpage:body>
+</xpage:page>
