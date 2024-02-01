@@ -151,10 +151,9 @@ h3 {
 	clear: left !important;
     }
 
-    .ep_tm_eprints_logo {
-	display: block !important;
+    .ep_tm_menu_tools {
+	display: none !important;
     }
-
 
 }
 
