@@ -169,13 +169,17 @@
 		</tr>
 	    </table>
 
-	    <p style="text-align:center; max-width:450px">
 
-		<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" title="Creative Commons">
-		    <img style="padding:10px 10px 10px 10px" alt="{phrase('archive_name')}" width="100px" src="/images/somerights.png"/></a>
 
-		<p><small> This site is licensed under a Creative Commons License (Attribution-NonCommercial-NoDeriatives).</small></p>
-	    </p>
+
+<div style="text-align:center; max-width:300px; margin-left:auto;m margin:right:auto">
+
+    <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" title="Creative Commons"> <img  alt="{phrase('archive_name')}" width="100px" src="/images/somerights.png"/></a> <p><small> This site is licensed under a Creative Commons License (Attribution-NonCommercial-NoDeriatives).</small></p>
+</div>
+
+
+
+
 
 	</xpage:body>
     </xpage:page>
