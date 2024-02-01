@@ -18,6 +18,7 @@ body {
     background-color: #ffffff !important;
     font-size: 90% !important;
     height: auto !important;
+    max-width: 1000px;
 }
 
 #wrapper
