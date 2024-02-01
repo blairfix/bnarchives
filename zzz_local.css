@@ -17,6 +17,7 @@ body {
     padding-right: 2em;
     background-color: #ffffff !important;
     font-size: 90% !important;
+    height: auto !important;
 }
 
 #wrapper
