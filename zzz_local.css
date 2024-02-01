@@ -18,7 +18,8 @@ body {
     background-color: #ffffff !important;
     font-size: 90% !important;
     height: auto !important;
-    max-width: 500px;
+    max-width: 960px;
+    margin: auto;
 }
 
 #wrapper
