@@ -139,11 +139,7 @@ h3 {
 }
 
 /* responsiveness */
-@media (min-width: 700px) {
-
-    .ep_tm_menu li{
-	float: left !important;
-    }
+@media (max-width: 600px) {
 
     #menu {
 	z-index: 100;
