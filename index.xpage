@@ -12,7 +12,7 @@
 
 	<!-- welcome message  -->
 
-	<div class="ep_msg_message"> Welcome to <i>The Bichler &amp; Nitzan Archives.</i> The archives contain our own publications as well as related items. You are free to view, download, email, print, web-link and web-post material by Shimshon Bichler and/or Jonathan Nitzan with explicit and due attribution of authorship and publication. Commercial use is forbidden. </div>
+	<div> Welcome to <i>The Bichler &amp; Nitzan Archives.</i> The archives contain our own publications as well as related items. You are free to view, download, email, print, web-link and web-post material by Shimshon Bichler and/or Jonathan Nitzan with explicit and due attribution of authorship and publication. Commercial use is forbidden. </div>
 
 
 	<!-- what's new  -->
@@ -26,16 +26,7 @@
 	<hr />
 	<h3><a href="{$config{base_url}}/overview.html">Overview</a></h3>
 	<hr />
-	<p> Learn more about ... </p>
-
-
-
-
-		<p><a href="{$config{base_url}}/view/">Browse</a>
-			Browse items according to various categories</p>
-
-		    <p><a href="{$config{perl_url}}/search/advanced">Search</a>
-			    Search for items using a full range of fields and categories</p>
+	<p> Learn more about  </p>
 
 
 			<table width="100%">
