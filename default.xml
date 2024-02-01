@@ -12,6 +12,7 @@
 	</head>
 	<body>
 	    <epc:pin ref="pagetop"/>
+
 	    <div class="ep_tm_header ep_noprint">
 		<div class="ep_tm_site_logo">
 		    <a href="{$config{frontpage}}" title="{phrase('archive_name')}">
@@ -19,10 +20,7 @@
 		    </a>
 		</div>
 
-	<input class="side-menu" type="checkbox" id="side-menu"/>
-        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
 
-	
 		<div id="menu">
 		    <div id="local_menu">
 			<ul class="ep_tm_menu">
