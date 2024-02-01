@@ -147,6 +147,7 @@ h3 {
 
     #menu {
 	border: 0px none;
+	display: block !important;
 	clear: left !important;
     }
 
