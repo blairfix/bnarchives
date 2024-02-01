@@ -176,6 +176,7 @@
 		<img style="padding:10px 10px 10px 10px" alt="{phrase('archive_name')}" width="100px" src="/images/somerights.png"/></a>
 
 	    <p><small> This site is licensed under a Creative Commons License (Attribution-NonCommercial-NoDeriatives).</small></p>
+	</div>
 
     </xpage:body>
 </xpage:page>
