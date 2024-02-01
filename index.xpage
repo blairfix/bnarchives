@@ -174,7 +174,7 @@
 
 	    <div class="creative-commons">
 		<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" title="Creative Commons"> <img  alt="{phrase('archive_name')}" width="100px" src="/images/somerights.png"/></a>
-		<div><small> This site is licensed under a Creative Commons License (Attribution-NonCommercial-NoDeriatives).</small></div>
+		<div> This site is licensed under a Creative Commons License (Attribution-NonCommercial-NoDeriatives).</div>
 
 	    </div>
 
