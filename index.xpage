@@ -15,6 +15,15 @@
 	<hr />
 	<h3> <a href="{$config{perl_url}}/latest">What’s New</a></h3>
 	<hr />
+	<p> new stuff feed</p>
+
+
+
+	<hr />
+	<h3> <a href="{$config{base_url}}/overview.html">Overview</a></h3>
+	<hr />
+
+	<p> Learn more about capital as power.</p>
 
 
 
