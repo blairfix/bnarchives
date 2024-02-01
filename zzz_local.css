@@ -146,8 +146,8 @@ h3 {
     }
 
     #menu {
+	height: 60px !important;
 	border: 0px none;
-	display: block !important;
 	clear: left !important;
     }
 
