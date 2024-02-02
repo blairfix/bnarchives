@@ -44,7 +44,7 @@
 	    <!-- overview -->
 	    <div class="grid-item">
 		<h3> <a href="{$config{base_url}}/overview.html">Overview</a></h3>
-		<p> Read  an introductory guide to the theory of capital as power (CasP),  intended primarily for those who are new to the subject and want to know where to begin.
+		<p> Read  an introductory guide to the theory of capital as power (CasP),  intended primarily for those who are new to the subject and want to know where to begin.</p>
 	    </div>
 
 
