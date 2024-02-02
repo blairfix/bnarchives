@@ -28,13 +28,12 @@
 
 	<hr  class="hr-home" />
 	<h3> <a href="{$config{perl_url}}/latest">What’s New</a></h3>
-
 	<p> new stuff feed</p>
 
 
 
-
-	<hr />
+	<!-- overview -->
+	<hr  class="hr-home" />
 	<h3> <a href="{$config{base_url}}/overview.html">Overview</a></h3>
 	<p> Learn more about capital as power.</p>
 
