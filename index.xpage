@@ -50,7 +50,6 @@
 
 	<!-- browse -->
 	<div class="grid-item">
-	<hr  class="hr-home" />
 	<h3> <a href="{$config{base_url}}/view">Browse</a></h3>
 	<p> Browse items according to various categories </p>
 	</div>

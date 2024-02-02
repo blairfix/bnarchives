@@ -155,6 +155,10 @@ h3 {
     margin:0 auto;
 }
 
+.grid-container {
+  display: grid;
+}
+
 /* responsiveness */
 @media (max-width: 660px) {
 
