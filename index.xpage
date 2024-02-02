@@ -35,46 +35,28 @@
 
 
 
-	<!-- overview -->
+
+
 	<hr  class="hr-home" />
+
+	<div class="grid-container">
+
+	<!-- overview -->
+	<div class="grid-item">
 	<h3> <a href="{$config{base_url}}/overview.html">Overview</a></h3>
-	<p> Learn more about capital as power.</p>
+	<p> Show overview and introductory material </p>
+	</div>
 
 
 	<!-- browse -->
+	<div class="grid-item">
 	<hr  class="hr-home" />
 	<h3> <a href="{$config{base_url}}/view">Browse</a></h3>
-	<p> Browse by ... </p>
+	<p> Browse items according to various categories </p>
+	</div>
+    
+    </div>
 
-
-
-
-	<table class="front_page_table" width="100%">
-	    <tr>
-		<td>
-		    <div class="ep_toolbox" ><div class="ep_toolbox_content" >
-			    <table width="100%">
-				<th style="text-align:left">This site</th>
-				<tr>
-				    <td width="17%"><a href="{$config{perl_url}}/latest">What's New</a> </td>
-				    <td>– List items added/modified during the past 6 months</td>
-				</tr>
-				<tr>
-				    <td><a href="{$config{base_url}}/overview.html">Overview</a></td>
-				    <td>– Show overview and introductory material</td>
-				</tr>
-				<tr>
-				    <td><a href="{$config{base_url}}/view/">Browse</a></td>
-				    <td>– Browse items according to various categories</td>
-				</tr>
-				<tr>
-				    <td><a href="{$config{perl_url}}/search/advanced">Search</a></td>
-				    <td>– Search for items using a full range of fields and categories</td>
-				</tr>
-				<tr>
-				    <td><a href="{$config{base_url}}/links.html">Links</a></td>
-				    <td>– Visit related sites</td>
-				</tr>
 
 			    </table>
 		    </div></div>
