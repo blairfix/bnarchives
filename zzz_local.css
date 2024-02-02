@@ -172,11 +172,21 @@ h3 {
 }
 
 
-.ep_tm_searchbarbox, .ep_tm_searchbarbutton{ 
-    width: 100%;
+.ep_tm_searchbarbox,{ 
+    width: 70%;
     height: 40px;
     font-size: 100% !important;
+    float: left;
 }
+
+
+.ep_tm_searchbarbutton{ 
+    width: 30%;
+    height: 40px;
+    font-size: 100% !important;
+    float: right;
+}
+
 
 /* responsiveness */
 @media (max-width: 660px) {
