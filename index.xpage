@@ -10,8 +10,10 @@
     <xpage:title>Home</xpage:title>
     <xpage:body>
 
+	<!-- welcome -->
 	<div class="ep_msg_message"> Welcome to <i>The Bichler &amp; Nitzan Archives.</i> The archives contain our own publications as well as related items. You are free to view, download, email, print, web-link and web-post material by Shimshon Bichler and/or Jonathan Nitzan with explicit and due attribution of authorship and publication. Commercial use is forbidden. </div>
 
+	<!-- search -->
 	<hr  class="hr-home" />
 	<h3> Search the Bichler &amp; Nitzan Archives</h3>
 
@@ -26,9 +28,10 @@
 
 
 
+	<!-- new stuff -->
 	<hr  class="hr-home" />
 	<h3> <a href="{$config{perl_url}}/latest">What’s New</a></h3>
-	<p> new stuff feed</p>
+	<p> new stuff feed ... fill me in</p>
 
 
 
@@ -36,6 +39,12 @@
 	<hr  class="hr-home" />
 	<h3> <a href="{$config{base_url}}/overview.html">Overview</a></h3>
 	<p> Learn more about capital as power.</p>
+
+
+	<!-- browse -->
+	<hr  class="hr-home" />
+	<h3> <a href="{$config{base_url}}/view">Browse</a></h3>
+	<p> Browse by ... </p>
 
 
 
