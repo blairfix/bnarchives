@@ -172,8 +172,9 @@ h3 {
 }
 
 
-.ep_tm_searchbarbox{
-    height: 60px;
+.ep_tm_searchbarbox .ep_tm_searchbarbutton {
+    height: 40px;
+    font-size: 100% !important;
 }
 
 /* responsiveness */
