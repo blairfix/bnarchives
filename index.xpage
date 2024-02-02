@@ -135,7 +135,7 @@
 	<!-- rss -->
 	<hr  class="hr-home" />
 
-	<div style="text-align: center">
+	<div style="text-align: center;margin-top:20px;margin-bottom:20px">
 	    <span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=Atom"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=Atom">Atom</a></span>
 	    <span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS">RSS 1.0</a></span>
 	    <span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS2"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS2">RSS 2.0</a></span>
