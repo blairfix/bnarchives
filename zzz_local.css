@@ -156,7 +156,10 @@ h3 {
 }
 
 .grid-container {
-  display: grid;
+    display: grid;
+    column-gap: 30px;
+    max-width: 300px;
+
 }
 
 /* responsiveness */

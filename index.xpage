@@ -41,20 +41,20 @@
 
 	<div class="grid-container">
 
-	<!-- overview -->
-	<div class="grid-item">
-	<h3> <a href="{$config{base_url}}/overview.html">Overview</a></h3>
-	<p> Show overview and introductory material </p>
-	</div>
+	    <!-- overview -->
+	    <div class="grid-item">
+		<h3> <a href="{$config{base_url}}/overview.html">Overview</a></h3>
+		<p> Show overview and introductory material </p>
+	    </div>
 
 
-	<!-- browse -->
-	<div class="grid-item">
-	<h3> <a href="{$config{base_url}}/view">Browse</a></h3>
-	<p> Browse items according to various categories </p>
+	    <!-- browse -->
+	    <div class="grid-item">
+		<h3> <a href="{$config{base_url}}/view">Browse</a></h3>
+		<p> Browse items according to various categories </p>
+	    </div>
+
 	</div>
-    
-    </div>
 
 	<table width="100%">
 	    <tr>
