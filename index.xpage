@@ -18,7 +18,7 @@
 	<p> new stuff feed</p>
 
 hr />
-	<h3> Search the Bichler &amp; Nitzan Archives</a></h3>
+	<h3> Search the Bichler &amp; Nitzan Archives</h3>
 	<hr />
 
 	<form method="get" accept-charset="utf-8" action="/cgi/search" style="display:inline" role="search" aria-label="Publication simple search">
