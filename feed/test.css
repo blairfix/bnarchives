@@ -1,0 +1,86 @@
+/* 
+ * This CSS file will be applied after all the built in styles.
+ * 
+ * CSS files are loaded in alphabetic order, hence the  "zzz" in 
+ * the filename to force it to load after the other css files!
+ * 
+ * Add any local over-rides here. 
+ * 
+ * To totally replace a system css file, create a file of the same 
+ * name in this directory. eg. messages.css
+ * 
+ */
+
+/*-------- body -------------------- */
+body {
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #ffffff !important;
+    font-size: 100% !important;
+    height: auto !important;
+    max-width: 900px;
+    margin: auto;
+
+    line-height: 1.6;
+
+    font-family: system-ui, sans-serif !important;
+
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+
+
+}
+
+
+.grid-container {
+    display: grid;
+    column-gap: 30px;
+    max-width: 400px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 20px;
+}
+
+#grid>div {
+  padding: .5em;
+}
+
+
+.feed-img{
+    float:right;
+    padding: 10px 10px 10px 10px;
+    width: 33%;
+}
+
+.feed-title{
+    font-size: 110%;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.feed-author{
+    padding-bottom: 10px;
+    font-size: 100%;
+    color: #555555;
+}
+
+.feed-abstract{
+    font-size: 90%;
+}
+
+.feed-date{
+    font-size: 70%;
+    padding-bottom: 10px;
+}
+
+.feed-link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.feed-link:hover {color: #666666;}
