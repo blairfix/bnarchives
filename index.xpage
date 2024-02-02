@@ -23,6 +23,8 @@
 	    <form method="get" accept-charset="utf-8" action="/cgi/search" style="display:inline" role="search" aria-label="Publication simple search">
 		<input class="ep_tm_searchbarbox" size="40" type="text" name="q" aria-labelledby="searchbutton" />
 		<input class="ep_tm_searchbarbutton" value="Search" type="submit" name="_action_search" id="searchbutton" />
+
+		<a class="ep_tm_searchbarbutton" value="Advanced Search"/>thing</a>
 		<input type="hidden" name="_action_search" value="Search" />
 		<input type="hidden" name="_order" value="bytitle" />
 		<input type="hidden" name="basic_srchtype" value="ALL" />
