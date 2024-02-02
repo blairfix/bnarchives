@@ -12,7 +12,7 @@
 
 	<div class="ep_msg_message"> Welcome to <i>The Bichler &amp; Nitzan Archives.</i> The archives contain our own publications as well as related items. You are free to view, download, email, print, web-link and web-post material by Shimshon Bichler and/or Jonathan Nitzan with explicit and due attribution of authorship and publication. Commercial use is forbidden. </div>
 
-	<hr />
+	<hr  class="hr-home" />
 	<h3> Search the Bichler &amp; Nitzan Archives</h3>
 
 	<form method="get" accept-charset="utf-8" action="/cgi/search" style="display:inline" role="search" aria-label="Publication simple search">
@@ -26,7 +26,7 @@
 
 
 
-	<hr />
+	<hr  class="hr-home" />
 	<h3> <a href="{$config{perl_url}}/latest">What’s New</a></h3>
 
 	<p> new stuff feed</p>
@@ -36,7 +36,6 @@
 
 	<hr />
 	<h3> <a href="{$config{base_url}}/overview.html">Overview</a></h3>
-	<hr />
 	<p> Learn more about capital as power.</p>
 
 
