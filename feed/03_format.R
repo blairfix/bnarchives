@@ -47,7 +47,7 @@ for(i in 1:nrow(d) ){
 		'<div class="feed-img">',
 		'<img style="width:100%;" src="', 
 		sub$img,
-		'"></div>',
+		'"/></div>',
 		sep = ""
     )
 
