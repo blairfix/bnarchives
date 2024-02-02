@@ -39,7 +39,7 @@
 
 	<hr  class="hr-home" />
 
-	<div class="grid-container">
+	<div id="grid">
 
 	    <!-- overview -->
 	    <div class="grid-item">

@@ -159,8 +159,21 @@ h3 {
     display: grid;
     column-gap: 30px;
     max-width: 300px;
-
 }
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 5px;
+}
+
+#grid>div {
+  padding: .5em;
+  color: #ffffff;
+  background: #1c87c9;
+  text-align: center;
+}
+
 
 /* responsiveness */
 @media (max-width: 660px) {
