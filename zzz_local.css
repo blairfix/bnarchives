@@ -172,6 +172,10 @@ h3 {
 }
 
 
+.ep_tm_searchbarbox{
+    height: 60px;
+}
+
 /* responsiveness */
 @media (max-width: 660px) {
 
