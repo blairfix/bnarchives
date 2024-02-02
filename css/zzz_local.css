@@ -1,0 +1,210 @@
+/* 
+ * This CSS file will be applied after all the built in styles.
+ * 
+ * CSS files are loaded in alphabetic order, hence the  "zzz" in 
+ * the filename to force it to load after the other css files!
+ * 
+ * Add any local over-rides here. 
+ * 
+ * To totally replace a system css file, create a file of the same 
+ * name in this directory. eg. messages.css
+ * 
+ */
+
+/*-------- body -------------------- */
+body {
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #ffffff !important;
+    font-size: 100% !important;
+    height: auto !important;
+    max-width: 800px;
+    margin: auto;
+
+    line-height: 1.6;
+
+    font-family: system-ui, sans-serif !important;
+
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+
+
+}
+
+#wrapper
+{
+    max-width: 900px !important;
+}
+#main_content
+{
+    min-height: 640px;
+}
+
+
+/*-------- banner -------------------- */
+
+.bn-logo {
+    max-width: 100% !important;
+    width: 800px !important;
+    height: auto !important;
+}
+
+
+h2.latest {
+    margin-top:30px;
+    border-bottom: 1px solid #606060;
+}
+
+div.ep_latest_result {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+table.ep_search_fields {
+    width: 100%;
+}
+
+h1 {
+    text-align: left;
+}
+
+h1.ep_tm_pagetitle {
+    font-size: 170%;
+    font-weight: bold;
+    color: #cc0000;
+    padding-top: 10px;
+    margin-bottom: 13px;
+}
+
+.ep_tm_header {
+    background-color: #fff;
+    background-image: none;
+    background-repeat: none;
+    text-align: center;
+    margin-bottom: -1px;
+}
+
+.ep_tm_searchbar {
+    background-color: #FFF; 
+    background-image: none;
+}
+
+h2 {
+    font-size: 100%;
+    color: #000;
+}
+
+h3 {
+    font-size: 100%;
+    color: #000;
+}
+
+.ep_tm_menu {
+    background-image: none; 
+}
+
+#menu {
+    background-color: #204F76;
+    background-repeat: repeat-x;
+    background-position: 0px 5px;
+    z-index: 100;
+    height: 30px;
+    width: 100%;
+    clear: none;
+    padding: 0px;
+    border: 0px none;
+    vertical-align: top;
+    display: flex;
+    justify-content: center;
+}
+
+#local_menu {
+    z-index: 1;
+    position: relative;
+}
+
+#local_menu_search {
+
+    /*z-index: 1;*/
+    margin: 0px auto;
+    width: 770px;
+    position: relative;
+}
+
+
+.ep_tm_menu{
+    width: 100%;
+}
+
+.ep_toolbox {
+    margin-bottom: 0px;
+}
+
+.hr-home{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.creative-commons {
+    text-align: center;
+    font-size: 70%;
+    max-width: 300px;
+    margin:0 auto;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 30px;
+    max-width: 300px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 5px;
+}
+
+#grid>div {
+  padding: .5em;
+}
+
+
+.ep_tm_searchbarbox{ 
+    width: 65%;
+    height: 40px;
+    font-size: 100% !important;
+}
+
+
+.ep_tm_searchbarbutton{ 
+    width: 25%;
+    height: 40px;
+    font-size: 100% !important;
+}
+
+
+/* responsiveness */
+@media (max-width: 660px) {
+
+    .ep_tm_menu li{
+	float: left !important;
+    }
+
+    #menu {
+	height: 60px !important;
+	border: 0px none;
+	clear: left !important;
+    }
+
+    .ep_tm_key_tools {
+	display: none !important;
+    }
+
+}
+
+
+
+
