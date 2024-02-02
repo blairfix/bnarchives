@@ -217,7 +217,7 @@ h3 {
 }
 
 .feed-link{
-    color: black;
+    color: #000000 !important;
     text-decoration: none;
 }
 
