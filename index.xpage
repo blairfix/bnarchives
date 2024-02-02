@@ -51,10 +51,12 @@
 	    <!-- browse -->
 	    <div class="grid-item">
 		<h3> <a href="{$config{base_url}}/view">Browse</a></h3>
-		<p> Browse the Bichler &amp; Nitzan Archives by publication year, author, subject, language and publication Type </p>
+		<p> Browse the Bichler &amp; Nitzan Archives by publication year, author, subject, language and publication type </p>
 	    </div>
 
 	</div>
+
+
 
 	<table width="100%">
 	    <tr>
@@ -79,6 +81,10 @@
 		</td>
 	    </tr>
 	</table>
+
+
+
+
 
 	<table width="100%">
 	    <tr>
@@ -128,38 +134,33 @@
 		</td>
 	    </tr>
 	</table>
-	<table width="100%">
-	    <tr>
-		<td>
-		    <div class="ep_toolbox" ><div class="ep_toolbox_content" >
-			    <table>
-				<th style="text-align:left">About</th>
-				<tr>
-				    <td>Shimshon Bichler teaches political economy at colleges and universities in Israel (<a href="mailto:tookie@barak.net.il">tookie@barak.net.il</a>)<br/>
-					    Jonathan Nitzan teaches political economy at York University in Canada (<a href="mailto:nitzan@yorku.ca">nitzan@yorku.ca</a>)</td>
-				    </tr>
-				</table>
-			</div></div>
-		    </td>
-		</tr>
-	    </table>
-
-	    <div style="text-align: right">
-		<span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=Atom"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=Atom">Atom</a></span>
-		<span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS">RSS 1.0</a></span>
-		<span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS2"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS2">RSS 2.0</a></span>
-	    </div>
 
 
-	    <div class="creative-commons">
-		<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" title="Creative Commons"> <img  alt="{phrase('archive_name')}" width="100px" src="/images/somerights.png"/></a>
-		<div> This site is licensed under a Creative Commons License (Attribution-NonCommercial-NoDeriatives).</div>
+	<hr  class="hr-home" />
+	<h3>About</h3>
+	<ul>
+	    <li>Shimshon Bichler teaches political economy at colleges and universities in Israel (<a href="mailto:tookie@barak.net.il">tookie@barak.net.il</a>) </i>
+	    </i> Jonathan Nitzan teaches political economy at York University in Canada (<a href="mailto:nitzan@yorku.ca">nitzan@yorku.ca</a>)
+	</ul>
 
-	    </div>
+
+
+	<div style="text-align: right">
+	    <span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=Atom"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=Atom">Atom</a></span>
+	    <span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS">RSS 1.0</a></span>
+	    <span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS2"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS2">RSS 2.0</a></span>
+	</div>
+
+
+	<div class="creative-commons">
+	    <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" title="Creative Commons"> <img  alt="{phrase('archive_name')}" width="100px" src="/images/somerights.png"/></a>
+	    <div> This site is licensed under a Creative Commons License (Attribution-NonCommercial-NoDeriatives).</div>
+
+	</div>
 
 
 
 
 
-	</xpage:body>
-    </xpage:page>
+    </xpage:body>
+</xpage:page>
