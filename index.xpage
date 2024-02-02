@@ -17,12 +17,12 @@
 	<hr />
 	<p> new stuff feed</p>
 
-hr />
+	<hr />
 	<h3> Search the Bichler &amp; Nitzan Archives</h3>
 	<hr />
 
 	<form method="get" accept-charset="utf-8" action="/cgi/search" style="display:inline" role="search" aria-label="Publication simple search">
-	    <input class="ep_tm_searchbarbox" size="100" type="text" name="q" aria-labelledby="searchbutton" />
+	    <input class="ep_tm_searchbarbox" size="60" type="text" name="q" aria-labelledby="searchbutton" />
 	    <input class="ep_tm_searchbarbutton" value="Search" type="submit" name="_action_search" id="searchbutton" />
 	    <input type="hidden" name="_action_search" value="Search" />
 	    <input type="hidden" name="_order" value="bytitle" />
