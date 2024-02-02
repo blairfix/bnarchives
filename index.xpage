@@ -44,14 +44,14 @@
 	    <!-- overview -->
 	    <div class="grid-item">
 		<h3> <a href="{$config{base_url}}/overview.html">Overview</a></h3>
-		<p> Show overview and introductory material </p>
+		<p> Read  an introductory guide to the theory of capital as power (CasP),  intended primarily for those who are new to the subject and want to know where to begin.
 	    </div>
 
 
 	    <!-- browse -->
 	    <div class="grid-item">
 		<h3> <a href="{$config{base_url}}/view">Browse</a></h3>
-		<p> Browse items according to various categories </p>
+		<p> Browse the Bichler &amp; Nitzan Archives by publication year, author, subject, language and publication Type </p>
 	    </div>
 
 	</div>
