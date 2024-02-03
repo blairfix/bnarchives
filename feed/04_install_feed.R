@@ -5,7 +5,7 @@ feed = paste(feed, collapse = "\n")
 setwd("/opt/eprints3/archives/bnarchives/cfg/lang/en/static")
 
 template = readLines("index.xpage.template")
-template = gsub("feed-goes-here", feed)
+template = gsub("feed-goes-here", feed, template)
 
 # export home page
 writeLines( template, "index.xpage" )
