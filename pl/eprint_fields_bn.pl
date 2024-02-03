@@ -39,7 +39,7 @@ push @{$c->{fields}->{eprint}},
     'type' => 'text'
 },
 
-
+# language
 {
     'options' => [
 	'Arabic',
@@ -64,6 +64,23 @@ push @{$c->{fields}->{eprint}},
     'name' => 'lang',
     'type' => 'set'
 },
+
+# keywords
+{
+    'name' => 'keywords',
+    'type' => 'longtext',
+    'input_rows' => 2
+},
+
+# notes
+{
+    'name' => 'note',
+    'type' => 'longtext',
+    'input_rows' => 3
+},
+
+
+
 
 
 
