@@ -84,14 +84,6 @@ push @{$c->{fields}->{eprint}},
 },
 
 {
-    'top' => 'subjects',
-    'browse_link' => 'subjects',
-    'name' => 'subjects',
-    'multiple' => 1,
-    'type' => 'subject'
-},
-
-{
     'name' => 'thesistype',
     'type' => 'text'
 },
