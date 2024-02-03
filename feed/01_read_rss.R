@@ -1,5 +1,5 @@
 
-url = "https://bnarchives.yorku.ca/cgi/latest_tool?output=RSS2"
+url = readLines("bn_rss.txt")
 rss = readLines(url)
 
 
