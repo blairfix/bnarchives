@@ -65,13 +65,6 @@ push @{$c->{fields}->{eprint}},
     'type' => 'set'
 },
 
-# number
-{
-    'maxlength' => 15,
-    'name' => 'number',
-    'type' => 'text'
-},
-
 # page range
 {
     'name' => 'pagerange',
