@@ -84,12 +84,6 @@ push @{$c->{fields}->{eprint}},
     'type' => 'text'
 },
 
-# title
-{
-    'name' => 'title',
-    'type' => 'longtext'
-},
-
 # volume
 {
     'maxlength' => 6,
