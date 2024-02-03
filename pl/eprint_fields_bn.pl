@@ -65,10 +65,11 @@ push @{$c->{fields}->{eprint}},
     'type' => 'set'
 },
 
-# page range
+# public doman
 {
-    'name' => 'pagerange',
-    'type' => 'pagerange'
+    'name' => 'pubdom',
+    'input_style' => 'radio',
+    'type' => 'boolean'
 },
 
 
