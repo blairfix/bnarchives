@@ -1,5 +1,27 @@
 push @{$c->{fields}->{eprint}},
 
+# name
+{
+    'fields' => [
+	{
+	    'type' => 'name',
+	    'sub_name' => 'name'
+	},
+	{
+	    'input_cols' => 20,
+	    'allow_null' => 1,
+	    'type' => 'text',
+	    'sub_name' => 'id'
+	}
+    ],
+    'input_boxes' => 6,
+    'name' => 'creators',
+    'multiple' => 1,
+    'type' => 'compound'
+},
+
+
+
 # alternative location
 {
     'name' => 'altloc',
