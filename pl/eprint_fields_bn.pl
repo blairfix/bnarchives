@@ -72,13 +72,29 @@ push @{$c->{fields}->{eprint}},
     'type' => 'boolean'
 },
 
-# reference text
+
 {
-    'name' => 'referencetext',
-    'type' => 'longtext',
-    'input_rows' => 3
+    'name' => 'reportno',
+    'type' => 'text'
 },
 
+{
+    'name' => 'series',
+    'type' => 'text'
+},
+
+{
+    'top' => 'subjects',
+    'browse_link' => 'subjects',
+    'name' => 'subjects',
+    'multiple' => 1,
+    'type' => 'subject'
+},
+
+{
+    'name' => 'thesistype',
+    'type' => 'text'
+},
 
 
 
