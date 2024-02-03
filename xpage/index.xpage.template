@@ -1,0 +1,162 @@
+<?xml version="1.0" standalone="no"  ?>
+<!DOCTYPE page SYSTEM "entities.dtd" >
+<xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
+    <xpage:head>
+	<link rel="alternate" type="application/rss+xml" title="Items in {phrase('archive_name')}" href="{$config{http_cgiurl}}/latest_tool?output=RSS2"></link>
+	<link rel="alternate" type="application/atom+xml" title="Items in {phrase('archive_name')}" href="{$config{http_cgiurl}}/latest_tool?output=Atom"></link>
+	<link rel="alternate" type="application/rdf+xml" title="Repository Summary RDF+XML" href="{$config{http_cgiurl}}/export/repository/RDFXML/devel.rdf"></link>
+	<link rel="alternate" type="text/n3" title="Repository Summary RDF+N3" href="{$config{http_cgiurl}}/export/repository/RDFN3/devel.n3"></link>
+    </xpage:head>
+    <xpage:title>Home</xpage:title>
+    <xpage:body>
+
+	<!-- welcome -->
+	<p> Welcome to <i>The Bichler &amp; Nitzan Archives.</i> The archives contain our own publications as well as related items. You are free to view, download, email, print, web-link and web-post material by Shimshon Bichler and/or Jonathan Nitzan with explicit and due attribution of authorship and publication. Commercial use is forbidden. </p>
+
+	<!-- search -->
+	<hr  class="hr-home" />
+	<h3> Search the Bichler &amp; Nitzan Archives</h3>
+
+
+	<div style="padding-left: 5px">
+
+	    <form method="get" accept-charset="utf-8" action="/cgi/search" style="display:inline" role="search" aria-label="Publication simple search">
+		<input class="ep_tm_searchbarbox" type="text" name="q" aria-labelledby="searchbutton" />
+		<input class="ep_tm_searchbarbutton"  value="Search" type="submit" name="_action_search" id="searchbutton" />
+
+		<input type="hidden" name="_action_search" value="Search" />
+		<input type="hidden" name="_order" value="bytitle" />
+		<input type="hidden" name="basic_srchtype" value="ALL" />
+		<input type="hidden" name="_satisfyall" value="ALL" />
+	    </form>
+
+	    <p><a href="{$config{perl_url}}/search/advanced">Advanced search</a></p>
+
+	</div>
+
+
+	<!-- new stuff -->
+	<hr  class="hr-home" />
+	<h3> <a href="{$config{perl_url}}/latest">What’s New</a></h3>
+
+	feed-goes-here
+
+
+	<!-- overview and browse -->
+	<hr  class="hr-home" />
+	<div id="grid">
+
+	    <!-- overview -->
+	    <div class="grid-item">
+		<h3> <a href="{$config{base_url}}/overview.html">Overview</a></h3>
+		<p> Read  an introductory guide to the theory of capital as power (CasP),  intended primarily for those who are new to the subject and want to know where to begin.</p>
+	    </div>
+
+
+	    <!-- browse -->
+	    <div class="grid-item">
+		<h3> <a href="{$config{base_url}}/view">Browse</a></h3>
+		<p> Browse the Bichler &amp; Nitzan Archives by publication year, author, subject, language and publication type </p>
+	    </div>
+
+	</div>
+
+
+
+	<!-- casp sites -->
+	<hr  class="hr-home" />
+	<h3>Capital-as-Power Sites</h3>
+
+	<div id="grid">
+
+	    <!-- creorder youtube-->
+	    <div class="grid-item">
+		<h3><a href="https://www.youtube.com/user/Creorder">Creorder Videos</a></h3>
+		<p>Videos of CasP conferences, presentations, talks, debates and interviews</p>
+	    </div>
+
+	    <!-- capital as power -->
+	    <div class="grid-item">
+		<h3><a href="http://www.capitalaspower.com">Capital as Power</a></h3>
+		<p>CasP blog, forum, publications, working papers, data and events</p>
+	    </div>
+
+	    <!-- capital as power -->
+	    <div class="grid-item">
+		<h3><a href="https://capitalaspower.com/recasp/">RECASP</a></h3>
+		<p>The <i>Review of Capital as Power</i>,  an open-access, peer-reviewed journal dedicated to capital-as-power research.</p>
+	    </div>
+	</div>
+
+
+	<!-- mailchimp -->
+	<hr  class="hr-home" />
+	<h3>Updates</h3>
+	<p>Sign-up to receive periodic alerts of new items:</p>
+
+	<!-- Begin MailChimp Signup Form -->
+	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"/>
+	<style type="text/css">
+	    #mc_embed_signup {
+	    clear:left; 
+	    width:100%;
+	    margin-top: 3px;
+	    margin-bottom: 3px;
+	    }
+	    #mc_embed_signup input.email { 
+	    font-family: sans-serif;
+	    height: 25px;
+	    font-size: 95%;
+	    }
+	    #mc_embed_signup .button {
+	    font-size: 95%;
+	    height: 25px;
+	    line-height: 25px;
+	    }
+	</style>
+	<div id="mc_embed_signup">
+	    <form action="//yorku.us13.list-manage.com/subscribe/post?u=bb99df23cb4f0749885ca4465&amp;id=7e3e7832fa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+		<div id="mc_embed_signup_scroll">
+
+		    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="required"/>
+		    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+		    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="bb99df23cb4f0749885ca4465&amp;id=7e3e7832fa" tabindex="-1" value=""/></div>
+		    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"/></div>
+		</div>
+	    </form>
+	</div>
+
+
+
+	<hr  class="hr-home" />
+	<h3>About</h3>
+	<ul>
+	    <li>Shimshon Bichler teaches political economy at colleges and universities in Israel (<a href="mailto:tookie@barak.net.il">tookie@barak.net.il</a>) </li>
+	    <li> Jonathan Nitzan teaches political economy at York University in Canada (<a href="mailto:nitzan@yorku.ca">nitzan@yorku.ca</a>) </li>
+	</ul>
+
+
+
+	<!-- rss -->
+	<hr  class="hr-home" />
+
+	<div style="text-align: center;margin-top:20px;margin-bottom:20px">
+	    <span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=Atom"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=Atom">Atom</a></span>
+	    <span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS">RSS 1.0</a></span>
+	    <span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS2"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS2">RSS 2.0</a></span>
+	</div>
+
+
+	<!-- creative commons -->
+	<div class="creative-commons">
+	    <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" title="Creative Commons"> <img  alt="{phrase('archive_name')}" width="100px" src="/images/somerights.png"/></a>
+	    <div> This site is licensed under a Creative Commons License (Attribution-NonCommercial-NoDeriatives).</div>
+
+	</div>
+
+
+
+
+
+    </xpage:body>
+</xpage:page>
