@@ -39,12 +39,6 @@ push @{$c->{fields}->{eprint}},
     'type' => 'text'
 },
 
-# institution
-{
-    'name' => 'institution',
-    'type' => 'text'
-},
-
 
 {
     'options' => [
