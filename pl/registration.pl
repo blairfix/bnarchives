@@ -12,7 +12,7 @@
 # and the error page 
 #   cfg/static/en/error401.xpage 
 # to remove the links to web registration.
-$c->{allow_web_signup} = 1;
+$c->{allow_web_signup} = 0;
 
 # Allow users to change their password via the web?
 # You may wish to disable this if you import passwords from an
