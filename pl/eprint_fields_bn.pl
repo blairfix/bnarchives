@@ -92,19 +92,5 @@ push @{$c->{fields}->{eprint}},
 },
 
 
-# date type
-{
-    'options' => [
-	'published',
-	'submitted',
-	'completed'
-    ],
-    'name' => 'date_type',
-    'input_style' => 'medium',
-    'type' => 'set'
-},
-
-
-
 
 ;
