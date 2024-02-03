@@ -84,13 +84,6 @@ push @{$c->{fields}->{eprint}},
     'type' => 'text'
 },
 
-# date
-{
-    name => 'date',
-    type => 'date',
-    min_resolution => 'year'
-},
-
 # suggestions
 {
     'name' => 'suggestions',
