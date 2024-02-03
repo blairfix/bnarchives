@@ -72,6 +72,32 @@ push @{$c->{fields}->{eprint}},
     'type' => 'boolean'
 },
 
+# publication
+{
+    'name' => 'publication',
+    'type' => 'text'
+},
+
+# publisher
+{
+    'name' => 'publisher',
+    'type' => 'text'
+},
+
+# refereed
+{
+    'name' => 'refereed',
+    'input_style' => 'radio',
+    'type' => 'boolean'
+},
+
+# reference text
+{
+    'name' => 'referencetext',
+    'type' => 'longtext',
+    'input_rows' => 3
+},
+
 
 
 
