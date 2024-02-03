@@ -1,102 +1,102 @@
+# Browse views 
+#
+# allow_null indicates that no value set is a valid result. 
+# multiple fields may be specified for one view, but avoid subject or allowing null in this case.
 
-# Browse views. allow_null indicates that no value set is 
-# a valid result. 
-# Multiple fields may be specified for one view, but avoid
-# subject or allowing null in this case.
 $c->{browse_views} = [
-        {
-                id => "year",
-                menus => [
-			{
-				fields => [ "date;res=year" ],
-				reverse_order => 1,
-                		allow_null => 1,
-				new_column_at => [10,10],
-			}
-		],
-                order => "title/creators_name",
-		variations => [
-			"DEFAULT",
-			"date;truncate=4,reverse,jump=plain",
-                        "creators_name;string,jump=plain",
-			"lang;-date,creators_name,title,jump=plain",
-                        "type;-date,creators_name,title,jump=plain",
-			],
-        },
-        {
-                id => "creators",
-                allow_null => 0,
-                hideempty => 1,
-                menus => [
-                        {
-                                fields => [ "creators_name" ],
-                                new_column_at => [2000],
-                        },
-                ],
+    {
+	id => "year",
+	menus => [
+	    {
+		fields => [ "date;res=year" ],
+		reverse_order => 1,
+		allow_null => 1,
+		new_column_at => [10,10],
+	    }
+	],
+	order => "title/creators_name",
+	variations => [
+	    "DEFAULT",
+	    "date;truncate=4,reverse,jump=plain",
+	    "creators_name;string,jump=plain",
+	    "lang;-date,creators_name,title,jump=plain",
+	    "type;-date,creators_name,title,jump=plain",
+	],
+    },
+    {
+	id => "creators",
+	allow_null => 0,
+	hideempty => 1,
+	menus => [
+	    {
+		fields => [ "creators_name" ],
+		new_column_at => [2000],
+	    },
+	],
 
-                order => "-date/title",
-                variations => [
-                        "DEFAULT",
-                        "date;truncate=4,reverse,jump=plain",
-                        "creators_name;string,jump=plain",
-                        "lang;-date,creators_name,title,jump=plain",
-                        "type;-date,creators_name,title,jump=plain",
-                ],
-        },
+	order => "-date/title",
+	variations => [
+	    "DEFAULT",
+	    "date;truncate=4,reverse,jump=plain",
+	    "creators_name;string,jump=plain",
+	    "lang;-date,creators_name,title,jump=plain",
+	    "type;-date,creators_name,title,jump=plain",
+	],
+    },
 
-        {
-                id => "subjects",
-                menus => [
-			{
-				fields => [ "subjects" ],
-                		hideempty => 1,
-			}
-		],
-                order => "creators_name/title",
-                include => 1,
-                variations => [
-                        "DEFAULT",
-                        "date;truncate=4,reverse,jump=plain",
-                        "creators_name;string,jump=plain",
-                        "lang;-date,creators_name,title,jump=plain",
-                        "type;-date,creators_name,title,jump=plain",
-		],
-        },
-        {
-                id => "lang",
-                menus => [
-                        {
-                                fields => [ "lang" ],
-                                hideempty => 1,
-                        }
-                ],
-                order => "creators_name/title",
-                include => 1,
-                variations => [
-                        "DEFAULT",
-                        "date;truncate=4,reverse,jump=plain",
-                        "creators_name;string,jump=plain",
-                        "lang;-date,creators_name,title,jump=plain",
-                        "type;-date,creators_name,title,jump=plain",
-		],
-        },
-        {
-                id => "year2",
-                menus => [
-                        {
-                                fields => [ "type" ],
-                        }
-                ],
-                order => "-date",
-                variations => [
-                        "DEFAULT",
-                        "date;truncate=4,reverse,jump=plain",
-                        "creators_name;string,jump=plain",
-                        "lang;-date,creators_name,title,jump=plain",
-                        "type;-date,creators_name,title,jump=plain",
-                ],        
-	},
-#{ id=>"doctype", menus=>[ { fields=>"type" } ], order=>"-date" }
+    {
+	id => "subjects",
+	menus => [
+	    {
+		fields => [ "subjects" ],
+		hideempty => 1,
+	    }
+	],
+	order => "creators_name/title",
+	include => 1,
+	variations => [
+	    "DEFAULT",
+	    "date;truncate=4,reverse,jump=plain",
+	    "creators_name;string,jump=plain",
+	    "lang;-date,creators_name,title,jump=plain",
+	    "type;-date,creators_name,title,jump=plain",
+	],
+    },
+    {
+	id => "lang",
+	menus => [
+	    {
+		fields => [ "lang" ],
+		hideempty => 1,
+	    }
+	],
+	order => "creators_name/title",
+	include => 1,
+	variations => [
+	    "DEFAULT",
+	    "date;truncate=4,reverse,jump=plain",
+	    "creators_name;string,jump=plain",
+	    "lang;-date,creators_name,title,jump=plain",
+	    "type;-date,creators_name,title,jump=plain",
+	],
+    },
+    {
+	id => "year2",
+	menus => [
+	    {
+		fields => [ "type" ],
+	    }
+	],
+	order => "-date",
+	variations => [
+	    "DEFAULT",
+	    "date;truncate=4,reverse,jump=plain",
+	    "creators_name;string,jump=plain",
+	    "lang;-date,creators_name,title,jump=plain",
+	    "type;-date,creators_name,title,jump=plain",
+	],        
+    },
+    #{ id=>"doctype", menus=>[ { fields=>"type" } ], order=>"-date" }
 ];
 
 # examples of some other useful views you might want to add
