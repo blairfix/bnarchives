@@ -72,16 +72,44 @@ push @{$c->{fields}->{eprint}},
     'type' => 'boolean'
 },
 
-
+# report number
 {
     'name' => 'reportno',
     'type' => 'text'
 },
 
+# thesis type
 {
     'name' => 'thesistype',
     'type' => 'text'
 },
+
+# title
+{
+    'name' => 'title',
+    'type' => 'longtext'
+},
+
+# volume
+{
+    'maxlength' => 6,
+    'name' => 'volume',
+    'type' => 'text'
+},
+
+
+# date type
+{
+    'options' => [
+	'published',
+	'submitted',
+	'completed'
+    ],
+    'name' => 'date_type',
+    'input_style' => 'medium',
+    'type' => 'set'
+},
+
 
 
 
