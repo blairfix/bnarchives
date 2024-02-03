@@ -65,14 +65,18 @@ push @{$c->{fields}->{eprint}},
     'type' => 'set'
 },
 
-# notes
+# number
 {
-    'name' => 'note',
-    'type' => 'longtext',
-    'input_rows' => 3
+    'maxlength' => 15,
+    'name' => 'number',
+    'type' => 'text'
 },
 
-
+# page range
+{
+    'name' => 'pagerange',
+    'type' => 'pagerange'
+},
 
 
 
