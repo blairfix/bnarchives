@@ -45,34 +45,32 @@ push @{$c->{fields}->{eprint}},
     'type' => 'text'
 },
 
-# published status
+
 {
     'options' => [
-	'unpub',
-	'inpress',
-	'pub'
+	'Arabic',
+	'Chinese',
+	'Dutch',
+	'English',
+	'French',
+	'German',
+	'Greek',
+	'Hebrew',
+	'Italian',
+	'Japanese',
+	'Korean',
+	'Portuguese',
+	'Russian',
+	'South Asian',
+	'Spanish',
+	'Turkish',
+	'Vietnamese',
+	'Other'
     ],
-    'name' => 'ispublished',
+    'name' => 'lang',
     'type' => 'set'
 },
 
 
-
-
-
-
-
-
-# test field
-{
-    name => 'my_first_new_field',
-    type => 'set',
-    options => [
-	'yes',
-	'no',
-	'partial',
-    ],
-    input_rows => 1,
-},
 
 ;
