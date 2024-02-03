@@ -39,14 +39,6 @@ push @{$c->{fields}->{eprint}},
     'type' => 'text'
 },
 
-# department
-{
-    'name' => 'department',
-    'type' => 'text'
-},
-
-
-
 
 
 
