@@ -65,13 +65,6 @@ push @{$c->{fields}->{eprint}},
     'type' => 'set'
 },
 
-# keywords
-{
-    'name' => 'keywords',
-    'type' => 'longtext',
-    'input_rows' => 2
-},
-
 # notes
 {
     'name' => 'note',
