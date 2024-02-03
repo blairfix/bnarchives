@@ -1,5 +1,12 @@
 push @{$c->{fields}->{eprint}},
 
+# alternative location
+{
+    'name' => 'altloc',
+    'multiple' => 1,
+    'type' => 'url'
+},
+
 # chapter
 {
     'maxlength' => 5,
