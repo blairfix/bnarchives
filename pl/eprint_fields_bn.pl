@@ -72,13 +72,6 @@ push @{$c->{fields}->{eprint}},
     'type' => 'boolean'
 },
 
-# refereed
-{
-    'name' => 'refereed',
-    'input_style' => 'radio',
-    'type' => 'boolean'
-},
-
 # reference text
 {
     'name' => 'referencetext',
