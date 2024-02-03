@@ -79,11 +79,6 @@ push @{$c->{fields}->{eprint}},
 },
 
 {
-    'name' => 'series',
-    'type' => 'text'
-},
-
-{
     'name' => 'thesistype',
     'type' => 'text'
 },
