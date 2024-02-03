@@ -78,12 +78,6 @@ push @{$c->{fields}->{eprint}},
     'type' => 'text'
 },
 
-# publisher
-{
-    'name' => 'publisher',
-    'type' => 'text'
-},
-
 # refereed
 {
     'name' => 'refereed',
