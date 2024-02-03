@@ -1,1 +1,1 @@
-http://bnarchives.economicsfromthetopdown.com/cgi/latest_tool?output=RSS2
+http://bnarchives.yorku.ca/cgi/latest_tool?output=RSS2

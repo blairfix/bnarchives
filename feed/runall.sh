@@ -3,6 +3,7 @@
 # run R feed scripts
 for f in [0-9]*
 do
+    echo $f
     Rscript $f
 done
 
