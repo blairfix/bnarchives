@@ -84,11 +84,17 @@ push @{$c->{fields}->{eprint}},
     'type' => 'text'
 },
 
-# volume
+# date
 {
-    'maxlength' => 6,
-    'name' => 'volume',
-    'type' => 'text'
+    name => 'date',
+    type => 'date',
+    min_resolution => 'year'
+},
+
+# suggestions
+{
+    'name' => 'suggestions',
+    'type' => 'longtext'
 },
 
 
