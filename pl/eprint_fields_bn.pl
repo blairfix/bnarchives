@@ -84,12 +84,5 @@ push @{$c->{fields}->{eprint}},
     'type' => 'text'
 },
 
-# suggestions
-{
-    'name' => 'suggestions',
-    'type' => 'longtext'
-},
-
-
 
 ;
