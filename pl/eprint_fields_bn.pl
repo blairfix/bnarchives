@@ -39,6 +39,24 @@ push @{$c->{fields}->{eprint}},
     'type' => 'text'
 },
 
+# institution
+{
+    'name' => 'institution',
+    'type' => 'text'
+},
+
+# published status
+{
+    'options' => [
+	'unpub',
+	'inpress',
+	'pub'
+    ],
+    'name' => 'ispublished',
+    'type' => 'set'
+},
+
+
 
 
 
