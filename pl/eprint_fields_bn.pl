@@ -72,12 +72,6 @@ push @{$c->{fields}->{eprint}},
     'type' => 'boolean'
 },
 
-# publication
-{
-    'name' => 'publication',
-    'type' => 'text'
-},
-
 # refereed
 {
     'name' => 'refereed',
