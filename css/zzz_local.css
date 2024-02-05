@@ -41,6 +41,13 @@ body {
 }
 
 
+/*-------- search results -------------------- */
+
+.ep_search_result{
+    overflow: scroll;
+}
+
+
 /*-------- banner -------------------- */
 
 .bn-logo {
