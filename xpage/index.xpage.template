@@ -41,6 +41,8 @@
 
 	feed-goes-here
 
+	<div> <a href="{$config{perl_url}}/latest">More of what’s new</a></div>
+
 
 	<!-- overview and browse -->
 	<hr  class="hr-home" />

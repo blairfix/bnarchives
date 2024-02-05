@@ -61,7 +61,6 @@ for( i in 1:length(urls) ){
     id = grep("jpg|JPG|png|jpeg|JPEG|PNG", img) %>% head(. ,1)
     img = img[id]
 
-
     img = gsub('href="', "", img, fixed = T)
     img = gsub('"', "",  img, fixed = T)
 
