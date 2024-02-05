@@ -10,9 +10,9 @@ clean_func = function(x, tag){
 
     id = grep(tag, x)
     info =  x[id]
-    info = strsplit( info, 'content="' ) %>% unlist()
-    info = gsub( '" />', '', info, fixed = T )
-    info =  info[2] %>% trimws()
+    info = strsplit( info, 'content=|name=' ) %>% unlist()
+    info =  info[2] 
+    info = gsub( '"', '', info, fixed = T ) %>% trimws()
 
     return(info)
 
