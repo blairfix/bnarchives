@@ -44,8 +44,9 @@ body {
 /*-------- search results -------------------- */
 
 .ep_search_result{
-    overflow: scroll;
+    width: 100% !important;
 }
+
 
 
 /*-------- banner -------------------- */
