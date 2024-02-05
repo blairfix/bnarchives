@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+                                                                                           
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+    <phrase id="user_fieldhelp_address"></phrase>
+    <phrase id="user_fieldhelp_country"></phrase>
+    <phrase id="user_fieldhelp_dept"></phrase>
+    <phrase id="user_fieldhelp_expertise">Please list keyword/phrases describing your areas of specialisation using the terms likely to be used by someone searching for work in those areas. Avoid over-general terms (`chemistry') and over-particular terms (`my non-quantal theory of chemical reactions') that no one is likely to search on. Enter as many keyword/phrases as you wish.</phrase>
+    <phrase id="user_fieldhelp_hideemail">Select this item if you do not wish your email to be displayed on public pages. The EPrints administrators will still be able to see it.</phrase>
+    <phrase id="user_fieldhelp_name"></phrase>
+    <phrase id="user_fieldhelp_org"></phrase>
+    <phrase id="user_fieldhelp_os"></phrase>
+    <phrase id="user_fieldhelp_url"></phrase>
+    <phrase id="user_fieldname_address">Address</phrase>
+    <phrase id="user_fieldname_citeme">Complete Reference:</phrase>
+    <phrase id="user_fieldname_country">Country</phrase>
+    <phrase id="user_fieldname_dept">Department</phrase>
+    <phrase id="user_fieldname_expertise">Expertise</phrase>
+    <phrase id="user_fieldname_hideemail">Hide Email</phrase>
+    <phrase id="user_fieldname_name">Name</phrase>
+    <phrase id="user_fieldname_org">Organisation</phrase>
+    <phrase id="user_fieldname_os">Operating System</phrase>
+    <phrase id="user_fieldname_url">Homepage URL</phrase>
+    <phrase id="user_fieldopt_os_mac">Macintosh</phrase>
+    <phrase id="user_fieldopt_os_other">Other</phrase>
+    <phrase id="user_fieldopt_os_unix">UNIX</phrase>
+    <phrase id="user_fieldopt_os_vms">VMS</phrase>
+    <phrase id="user_fieldopt_os_win">Windows/DOS</phrase>
+    <phrase id="user_typename_admin">EPrints Administrator</phrase>
+    <phrase id="user_typename_editor">Editor</phrase>
+    <phrase id="user_typename_user">User</phrase>
+
+</epp:phrases>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+                                                                                           
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+    <phrase id="security_typename_staffonly">Archive staff only</phrase>
+    <phrase id="security_typename_validuser">Registered users only</phrase>
+
+
+<!-- The following phrases were added automatically by migration script. -->
+
+    <epp:phrase id="security_typename_public">Anyone</epp:phrase>
+
+</epp:phrases>

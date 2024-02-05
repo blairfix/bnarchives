@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+                                                                                           
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+    <phrase id="eprint_typename_articlejournal">Article - Journal</phrase>
+    <phrase id="eprint_typename_articlemag">Article - Magazine</phrase>
+    <phrase id="eprint_typename_articlemime">Article - Monograph</phrase>
+    <phrase id="eprint_typename_articlenews">Article - Newspaper</phrase>
+    <phrase id="eprint_typename_articlework">Article - Working Paper</phrase>
+    <phrase id="eprint_typename_book">Book</phrase>
+    <phrase id="eprint_typename_bookchapter">Book Chapter</phrase>
+    <phrase id="eprint_typename_confproceedings">Conference Paper / Proceedings</phrase>
+    <phrase id="eprint_typename_course">Course</phrase>
+    <phrase id="eprint_typename_datasets">Data</phrase>
+    <phrase id="eprint_typename_graph">Graph</phrase>
+    <phrase id="eprint_typename_incollection">In Collection</phrase>
+    <phrase id="eprint_typename_interview">Interview</phrase>
+    <phrase id="eprint_typename_lecture">Lecture / Presentation</phrase>
+    <phrase id="eprint_typename_other">Other</phrase>
+    <phrase id="eprint_typename_review">Review</phrase>
+    <phrase id="eprint_typename_techreport">Report</phrase>
+    <phrase id="eprint_typename_thesis">Thesis</phrase>
+
+</epp:phrases>

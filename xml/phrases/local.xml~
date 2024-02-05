@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+  <!-- To override system phrases add them here -->
+
+<!--
+
+Notes:
+
+<epp:phrase id="the/phrase/id">New phrase content</epp:phrase>
+
+To include a pin:
+<epp:phrase id="the/phrase/id"><epc:pin name="the/pin/name" /></epp:phrase>
+
+To include one phrase in another:
+<epp:phrase id="the/phrase/id">Lorm ipssee <epc:phrase ref="another/phrase/id" /></epp:phrase>
+
+To completely replace one phrase with another:
+<epp:phrase id="the/phrase/id" ref="phrase/to/copy/id" />
+
+Phrases in this file will be over-ridden by zz_webcfg.xml which is modified via the web-based phrase editor.
+
+
+-->
+
+
+<!-- Eprint Type Names -->
+    <epp:phrase id="eprint_typename_articlejournal">Article - Journal</epp:phrase>
+    <epp:phrase id="eprint_typename_articlemag">Article - Magazine</epp:phrase>
+<epp:phrase id="eprint_optdetails_type_articlemag">Article - Magazine</epp:phrase>
+
+    <epp:phrase id="eprint_typename_articlemime">Article - Monograph</epp:phrase>
+    <epp:phrase id="eprint_typename_articlenews">Article - Newspaper</epp:phrase>
+    <epp:phrase id="eprint_typename_articlework">Article - Working Paper</epp:phrase>
+    <epp:phrase id="eprint_typename_book">Book</epp:phrase>
+    <epp:phrase id="eprint_typename_bookchapter">Book Chapter</epp:phrase>
+    <epp:phrase id="eprint_typename_confproceedings">Conference Paper / Proceedings</epp:phrase>
+    <epp:phrase id="eprint_typename_course">Course</epp:phrase>
+    <epp:phrase id="eprint_typename_datasets">Data</epp:phrase>
+    <epp:phrase id="eprint_typename_graph">Graph</epp:phrase>
+    <epp:phrase id="eprint_typename_incollection">In Collection</epp:phrase>
+    <epp:phrase id="eprint_typename_interview">Interview</epp:phrase>
+    <epp:phrase id="eprint_typename_lecture">Lecture / Presentation</epp:phrase>
+    <epp:phrase id="eprint_typename_techreport">Report</epp:phrase>
+    <epp:phrase id="eprint_typename_review">Review</epp:phrase>
+    <epp:phrase id="eprint_typename_thesis">Thesis</epp:phrase>
+
+   <epp:phrase id="eprint_optdetails_type_articlemime">Article - Monograph</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_articlenews">Article - Newspaper</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_articlework">Article - Working Paper</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_book">Book</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_bookchapter">Book Chapter</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_confproceedings">Conference Paper / Proceedings</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_course">Course</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_datasets">Data</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_graph">Graph</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_incollection">In Collection</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_interview">Interview</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_lecture">Lecture / Presentation</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_techreport">Report</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_review">Review</epp:phrase>
+    <epp:phrase id="eprint_optdetails_type_thesis">Thesis</epp:phrase>
+
+    <epp:phrase id="document_typename_ascii">ASCII</epp:phrase>
+    <epp:phrase id="document_typename_coverimage">Cover Image</epp:phrase>
+    <epp:phrase id="document_typename_html">HTML</epp:phrase>
+    <epp:phrase id="document_typename_other">Other</epp:phrase>
+    <epp:phrase id="document_typename_pdf">PDF</epp:phrase>
+    <epp:phrase id="document_typename_ps">Postscript</epp:phrase>
+
+<epp:phrase id="eprint_fieldname_authors">Author</epp:phrase>
+
+
+</epp:phrases>

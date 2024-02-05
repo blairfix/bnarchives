@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+                                                                                           
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+    <phrase id="document_typename_text/plain">ASCII</phrase>
+    <phrase id="document_typename_coverimage">Image of Cover (to show on abstract page)</phrase>
+    <phrase id="document_typename_text/html">HTML</phrase>
+    <phrase id="document_typename_other">Other</phrase>
+    <phrase id="document_typename_application/pdf">PDF</phrase>
+    <phrase id="document_typename_application/postscript">Postscript</phrase>
+
+</epp:phrases>

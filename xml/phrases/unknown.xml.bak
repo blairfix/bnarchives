@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+                                                                                           
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+    <phrase id="bin/generate_views:blurb"><p><a href="javascript:history.go(-1)">Return to previous list.</a></p><p>Number of items: <strong><pin name="n"></pin></strong>.</p></phrase>
+    <phrase id="bin/generate_views:browseintro"><p>Browse items by one of the following criteria:</p></phrase>
+    <phrase id="bin/generate_views:browsetitle">Browse Records</phrase>
+    <phrase id="bin/generate_views:indextitle">Browse by <pin name="viewname"></pin></phrase>
+    <phrase id="bin/generate_views:intro"><p>Select a value to browse from the list below.</p></phrase>
+    <phrase id="bin/generate_views:preamble">Browse items by one of the following criteria:</phrase>
+    <phrase id="bin/generate_views:timestamp"><p>This list was generated on <strong><pin name="time"></pin></strong>.</p></phrase>
+    <phrase id="bin/generate_views:title"><pin name="viewname"></pin>: <pin name="value"></pin></phrase>
+    <phrase id="cgi/advsearch:adv_search">Advanced Search</phrase>
+    <phrase id="cgi/advsearch:preamble"></phrase>
+    <phrase id="cgi/latest:day_0">Sunday</phrase>
+    <phrase id="cgi/latest:day_1">Monday</phrase>
+    <phrase id="cgi/latest:day_2">Tuesday</phrase>
+    <phrase id="cgi/latest:day_3">Wednesday</phrase>
+    <phrase id="cgi/latest:day_4">Thursday</phrase>
+    <phrase id="cgi/latest:day_5">Friday</phrase>
+    <phrase id="cgi/latest:day_6">Saturday</phrase>
+    <phrase id="cgi/latest:help">Items added during the past 6 months:</phrase>
+    <phrase id="cgi/latest:intro">Items added during the past 6 months:</phrase>
+    <phrase id="cgi/latest:none"><p>Nothing new in the last 6 months.</p></phrase>
+    <phrase id="cgi/latest:title">What's New (last 6 months)</phrase>
+    <phrase id="cgi/latest:today">Today</phrase>
+    <phrase id="cgi/latest:yesterday">Yesterday</phrase>
+    <phrase id="cgi/search:preamble"></phrase>
+    <phrase id="cgi/search:simple_search">Basic Search</phrase>
+    <phrase id="deposit_agreement_text">
+<p><strong>For work being deposited by its own author:</strong> 
+In self-archiving this collection of files and associated bibliographic 
+metadata, I grant bnarchives the right to store 
+them and to make them permanently available publicly for free on-line. 
+I declare that this material is my own intellectual property and I 
+understand that bnarchives does not assume any 
+responsibility if there is any breach of copyright in distributing these 
+files or metadata. (All authors are urged to prominently assert their 
+copyright on the title page of their work.)</p>
+
+<p><strong>For work being deposited by someone other than its 
+author:</strong> I hereby declare that the collection of files and 
+associated bibliographic metadata that I am archiving at 
+bnarchives) is in the public domain. If this is 
+not the case, I accept full responsibility for any breach of copyright 
+that distributing these files or metadata may entail.</p>
+
+<p>Clicking on the deposit button indicates your agreement to these 
+terms.</p>
+    </phrase>
+    <phrase id="general:frontpage_link"></phrase>
+    <phrase id="general:userhome_link"></phrase>
+    <phrase id="lib/searchexpression:must_fulfill">Retrieved items must fulfill <pin name="anyall"></pin> of these conditions.</phrase>
+    <phrase id="lib/searchfield:bool_no">No</phrase>
+    <phrase id="lib/searchfield:bool_nopref">No Preference</phrase>
+    <phrase id="lib/searchfield:bool_yes">Yes</phrase>
+    <phrase id="lib/searchfield:desc_all_in"><pin name="name"></pin> matches all of <pin name="value"></pin></phrase>
+    <phrase id="lib/searchfield:desc_any_in"><pin name="name"></pin> matches any of <pin name="value"></pin></phrase>
+    <phrase id="lib/searchfield:desc_false"><b>NOT</b> <pin name="name"></pin></phrase>
+    <phrase id="lib/searchfield:desc_ignored"> (Ignoring: <pin name="list"></pin>)</phrase>
+    <phrase id="lib/searchfield:desc_int_between">between <pin name="from"></pin> and <pin name="to"></pin> inclusive</phrase>
+    <phrase id="lib/searchfield:desc_int_orless"><pin name="to"></pin> or less</phrase>
+    <phrase id="lib/searchfield:desc_int_ormore"><pin name="from"></pin> or more</phrase>
+    <phrase id="lib/searchfield:desc_is"><pin name="name"></pin> is <pin name="value"></pin></phrase>
+    <phrase id="lib/searchfield:desc_true"><pin name="name"></pin></phrase>
+    <phrase id="lib/searchfield:desc_year_between">between <pin name="from"></pin> and <pin name="to"></pin> inclusive</phrase>
+    <phrase id="lib/searchfield:desc_year_orless"><pin name="to"></pin> or before</phrase>
+    <phrase id="lib/searchfield:desc_year_ormore"><pin name="from"></pin> or after</phrase>
+    <phrase id="lib/searchfield:help_boolean">Select a value.</phrase>
+    <phrase id="lib/searchfield:help_datatype">Select one or more values from the list. Default is (Any).</phrase>
+    <phrase id="lib/searchfield:help_email">Enter some text to search for.</phrase>
+    <phrase id="lib/searchfield:help_int">Enter a single number (e.g. 93), or a range of numbers, e.g. `17-23', `17-' or -23'.</phrase>
+    <phrase id="lib/searchfield:help_longtext">Enter a term or terms.</phrase>
+    <phrase id="lib/searchfield:help_name">Enter a name or names to search for. Type either the family name, or the family name followed by a comma and the first name or initial. Names with spaces may be indicated by surrounding them with double quotes, (e.g. &quot;van Damme, J&quot;).</phrase>
+    <phrase id="lib/searchfield:help_set">Select one or more values from the list, and whether you want to search for records with any one or all of those values. Default is (Any).</phrase>
+    <phrase id="lib/searchfield:help_subject">Select one or more values from the list, and whether you want to search for records with any one or all of those values. Default is (Any).</phrase>
+    <phrase id="lib/searchfield:help_text">Enter a term or terms.</phrase>
+    <phrase id="lib/searchfield:help_url">Enter some text to search for.</phrase>
+    <phrase id="lib/searchfield:help_username">Enter one or more usernames (space seperated) and whether you want to search for records with any one or all of those values. Default is (Any).</phrase>
+    <phrase id="lib/searchfield:help_year">Enter a single year or a range of years. Examples (do not type the quotes) '1985', '1985-2000', '-1977', '2001-'.</phrase>
+    <phrase id="lib/searchfield:int_err">A numerical field must be specified as a single integer number, e.g. `23', or a range of numbers, e.g. `9-21', `17-' or `-93'</phrase>
+    <phrase id="lib/searchfield:no_words">Search field contains no indexable words: &quot;<pin name="words"></pin>&quot;. The system ignores very small or common words.</phrase>
+    <phrase id="lib/searchfield:set_all">All of these</phrase>
+    <phrase id="lib/searchfield:set_any">Any of these</phrase>
+    <phrase id="lib/searchfield:text_all">Match all, in any order</phrase>
+    <phrase id="lib/searchfield:text_any">Match any</phrase>
+    <phrase id="lib/searchfield:year_err">A year field must be specified as a single year, e.g. `2000', or a range of years, e.g. `1990-2000', `1990-' or `-2000'</phrase>
+    <phrase id="mail_bounce_reason">
+Unfortunately your eprint:
+
+<pin name="title"></pin>
+
+could not be accepted into bnarchives as-is.
+
+The eprint has been returned to your workspace. If you
+visit your item depositing page you will be able to
+edit your eprint, fix the problem and redeposit.
+    </phrase>
+    <phrase id="mail_delete_reason">
+Unfortunately your eprint:
+
+<pin name="title"></pin>
+
+could not be accepted into bnarchives.
+
+The eprint has been deleted.
+    </phrase>
+    <phrase id="mail_sig">
+<hr /><p>
+bnarchives<br />
+http://bnarchives.yorku.ca/<br />
+nitzan@yorku.ca
+</p>
+    </phrase>
+    <phrase id="page:abstract">Abstract</phrase>
+    <phrase id="page:abstract_intro"><h3>This is how the metadata summary page will look:</h3></phrase>
+    <phrase id="page:allfields_intro"><h3>This is complete contents of all the fields in this eprint:</h3></phrase>
+    <phrase id="page:available_versions"><h3>Available Versions of this Item</h3></phrase>
+    <phrase id="page:commentary_threads"><h3>Commentary/Response Threads</h3></phrase>
+    <phrase id="page:deposited_by">Deposited By</phrase>
+    <phrase id="page:deposited_on">Deposited On</phrase>
+    <phrase id="page:fulltext"><strong>Full Text Available As:</strong></phrase>
+    <phrase id="page:id_code">ID Code</phrase>
+    <phrase id="page:invalid_user">INVALID USER</phrase>
+    <phrase id="page:latest_version"><p><em>This is the latest version of this eprint.</em></p></phrase>
+    <phrase id="page:not_latest_version"><p class="notice">There is a more recent version of this eprint available. <pin name="link">Click here to view it.</pin></p></phrase>
+    <phrase id="page:subscription">Subscription</phrase>
+    <phrase id="page:suggestions_intro"><h3>The depositing user made the following comments and suggestions:</h3></phrase>
+    <phrase id="validate:bad_email">The email given for <b><pin name="fieldname"></pin></b> is invalid.</phrase>
+    <phrase id="validate:missing_family">Name in field <b><pin name="fieldname"></pin></b> is missing the &quot;family&quot; part.</phrase>
+    <phrase id="validate:missing_given">Name in field <b><pin name="fieldname"></pin></b> is missing the &quot;given names/initials&quot; part.</phrase>
+    <phrase id="validate:missing_http">The URL given for <b><pin name="fieldname"></pin></b> is invalid. Did you include the initial <strong>http://</strong>?</phrase>
+    <phrase id="validate:need_description">Documents of type <em><pin name="type"></pin></em> need a description.</phrase>
+    <phrase id="viewname_eprinte_techreport">Report</phrase>
+<phrase id="viewname_eprint_year2">Type</phrase>
+
+
+</epp:phrases>

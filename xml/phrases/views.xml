@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+                                                                                           
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+    <phrase id="viewname_eprint_book">Book</phrase>
+    <phrase id="viewname_eprint_bookchapter">Book Chapter</phrase>
+    <phrase id="viewname_eprint_course">Course</phrase>
+    <phrase id="viewname_eprint_incollection">In Collection</phrase>
+    <phrase id="viewname_eprint_interview">Interview</phrase>
+    <phrase id="viewname_eprint_journalarticle">Article - Journal</phrase>
+    <phrase id="viewname_eprint_lang">Language</phrase>
+    <phrase id="viewname_eprint_lecture">Lecture / Presentation</phrase>
+    <phrase id="viewname_eprint_magarticle">Article - Magazine</phrase>
+    <phrase id="viewname_eprint_mimearticle">Article - Monograph</phrase>
+    <phrase id="viewname_eprint_name">Author</phrase>
+    <phrase id="viewname_eprint_newsarticle">Article - Newspaper</phrase>
+    <phrase id="viewname_eprint_other">Other</phrase>
+    <phrase id="viewname_eprint_people">Person</phrase>
+    <phrase id="viewname_eprint_proceedings">Conference Paper / Proceedings</phrase>
+    <phrase id="viewname_eprint_status">Status</phrase>
+    <phrase id="viewname_eprint_subjects">Subject</phrase>
+    <phrase id="viewname_eprint_thesis">Thesis</phrase>
+    <phrase id="viewname_eprint_type">Document (ePrint) Type</phrase>
+    <phrase id="viewname_eprint_typeeprint">Publication Type</phrase>
+    <phrase id="viewname_eprint_workarticle">Article - Working Paper</phrase>
+    <phrase id="viewname_eprint_year">Year</phrase>
+
+</epp:phrases>
