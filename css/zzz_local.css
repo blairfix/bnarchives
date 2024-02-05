@@ -33,6 +33,12 @@ body {
 
 }
 
+body.homepage {
+
+    max-width: 1400px !important;
+
+    {
+
 #wrapper
 {
     max-width: 900px !important;
