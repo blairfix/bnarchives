@@ -8,7 +8,7 @@
 	<link rel="alternate" type="text/n3" title="Repository Summary RDF+N3" href="{$config{http_cgiurl}}/export/repository/RDFN3/devel.n3"></link>
     </xpage:head>
     <xpage:title>Home</xpage:title>
-    <xpage:body>
+    <xpage:body class="homepage">
 
 	<!-- welcome -->
 	<p> Welcome to <i>The Bichler &amp; Nitzan Archives.</i> The archives contain our own publications as well as related items. You are free to view, download, email, print, web-link and web-post material by Shimshon Bichler and/or Jonathan Nitzan with explicit and due attribution of authorship and publication. Commercial use is forbidden. </p>
