@@ -8,6 +8,3 @@ $c->{aliases} = [
                     'redirect' => 'yes'
                   }
                 ];
-$c->{securehost} = '';
-$c->{secureport} = undef;
-$c->{http_root} = undef;
