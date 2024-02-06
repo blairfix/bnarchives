@@ -34,6 +34,13 @@
             <td valign="top">
               <epc:print expr="$doc.citation('default')" /><br />
               <a href="{$doc.url()}" class="ep_document_link">Download (<epc:print expr="$doc.doc_size().human_filesize()" />)</a>
+
+	      <!-- test preview -->
+	      <iframe src="{$doc.url()}" width="50%" title="Rendering of document" height="600px" scrolling="yes" marginheight="0" frameborder="0" allowfullscreen=""></iframe>
+
+
+              <a href="{$doc.url()}" class="ep_document_link">Download (<epc:print expr="$doc.doc_size().human_filesize()" />)</a>
+
               <epc:if test="$doc.is_public()">
 			  <epc:choose>
 			  <epc:when test="$doc.thumbnail_url('video_mp4').is_set()">
