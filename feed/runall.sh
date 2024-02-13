@@ -9,3 +9,5 @@ done
 
 # generate html
 generate_static bnarchives
+
+epadmin reload --force bnarchives
