@@ -238,6 +238,12 @@ h3 {
 
 
 
+/* homepage box */
+.homepage_box {
+    background-color: #efefef;
+}
+
+
 /* responsiveness */
 @media (max-width: 660px) {
 
