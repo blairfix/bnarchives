@@ -9,7 +9,7 @@ done
 
 # generate html
 generate_static bnarchives
-generate_views bnarchives
-generate_abstracts bnarchives
+#generate_views bnarchives
+#generate_abstracts bnarchives
 
-epadmin reload --force bnarchives
+#epadmin reload --force bnarchives
