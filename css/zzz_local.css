@@ -240,7 +240,8 @@ h3 {
 
 /* homepage box */
 .homepage_box {
-    background-color: #e8e8ff;
+    background-color: #efefef;
+    background: linear-gradient(to right, white, transparent 90%);
     margin-top: 10pt;
     margin-bottom: 10pt;
     padding-top: 5pt;
