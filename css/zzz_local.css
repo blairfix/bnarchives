@@ -241,8 +241,10 @@ h3 {
 /* homepage box */
 .homepage_box {
     background-color: #efefef;
-    margin-left: 20pt;
-    margin-right: 20pt;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
 
 }
 
