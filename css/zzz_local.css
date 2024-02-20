@@ -11,6 +11,7 @@
  * 
  */
 
+
 /*-------- body -------------------- */
 body {
     padding-left: 2em;
@@ -151,6 +152,8 @@ h3 {
 .hr-home{
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 0.2px;
+    color: #ababab;
 }
 
 .creative-commons {
