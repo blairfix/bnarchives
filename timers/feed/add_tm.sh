@@ -1,9 +1,8 @@
 #!/usr/bin/bash
 
-mkdir -p ~/.config/systemd/user/
-cp *.timer *.service ~/.config/systemd/user/
+cp *.timer *.service /etc/systemd/system/
 
-systemctl --user daemon-reload
-systemctl --user enable feed.timer
-systemctl --user start feed.timer
-systemctl --user restart feed.timer
+systemctl daemon-reload
+systemctl enable feed.timer
+systemctl start feed.timer
+systemctl restart feed.timer

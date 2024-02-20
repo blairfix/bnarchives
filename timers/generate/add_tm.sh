@@ -1,11 +1,10 @@
 #!/usr/bin/bash
 
-mkdir -p ~/.config/systemd/user/
-cp *.timer *.service ~/.config/systemd/user/
+cp *.timer *.service /etc/systemd/system/
 
-systemctl --user daemon-reload
-systemctl --user enable generate.timer
-systemctl --user start generate.timer
-systemctl --user restart generate.timer
+systemctl daemon-reload
+systemctl enable generate.timer
+systemctl start generate.timer
+systemctl restart generate.timer
 
 cp generate.sh ~/bin
