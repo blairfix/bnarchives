@@ -1,0 +1,11 @@
+[Unit]
+Description=update site 
+
+[Timer]
+OnCalendar=00/2:30
+RandomizedDelaySec=60
+Persistent=true
+Unit=generate.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=update site
+
+[Service]
+Type=simple
+ExecStart=/home/eprints/bin/generate.sh
+
+[Install]
+WantedBy=timers.target
