@@ -1,0 +1,9 @@
+[Unit]
+Description=generate homepage feed
+
+[Service]
+Type=simple
+ExecStart=/home/eprints/feed/runall.sh
+
+[Install]
+WantedBy=timers.target
