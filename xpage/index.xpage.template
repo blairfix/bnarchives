@@ -58,7 +58,10 @@
 	<!-- overview and browse -->
 	<div class="homepage_box">
 	    <div class="homepage_heading_panel">
-		<div class="homepage_box_heading">Browse the Bichler &amp; Nitzan Archives</div>
+		<div class="homepage_box_heading">
+		    Browse the Bichler &amp; Nitzan Archives
+		    <img class="homepage_icon" src="/images/compass_icon.png" />
+		</div>
 	    </div>
 	    <div class="homepage_box_content">
 		<div id="grid">
