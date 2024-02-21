@@ -243,14 +243,24 @@ h3 {
 .homepage_box {
     margin-top: 10pt;
     margin-bottom: 10pt;
-    border:1px solid #eeeeee;
+    border: 1px solid #eeeeee;
 }
 
 
-.homepage_heading {
+.homepage_heading_panel {
     background-color: #f7f7f7;
-
 }
+
+.homepage_box_heading {
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.homepage_box_content{
+    padding-left: 10pt;
+    padding-right: 10pt;
+}
+
 
 /* responsiveness */
 @media (max-width: 660px) {
