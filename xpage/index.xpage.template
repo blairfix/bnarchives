@@ -40,7 +40,7 @@
 	<div class="homepage_box">
 	    <div class="homepage_heading_panel">
 		<div class="homepage_box_heading">
-		    <img src="/style/images/new_doc.png" width="20px" />
+		    <img src="/images/new_doc.png" width="20px" />
 		    <a class="feed-link" href="{$config{perl_url}}/latest">What’s New</a>
 		</div>
 	    </div>
