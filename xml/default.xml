@@ -24,22 +24,22 @@
 		<div id="menu">
 		    <div id="local_menu">
 			<ul class="ep_tm_menu">
-			    <li class="homepage-menu-list">
+			    <li>
 				<a href="{$config{https_url}}">
 				    <epc:phrase ref="template/navigation:home"/>
 				</a>
 			    </li>
-			    <li class="homepage-menu-list">
+			    <li>
 				<a href="{$config{https_url}}/cgi/latest">
 				    What's New 
 				</a>
 			    </li>
-			    <li class="homepage-menu-list">
+			    <li>
 				<a href="{$config{https_url}}/overview.html">
 				    Overview 
 				</a>
 			    </li>
-			    <li class="homepage-menu-list">
+			    <li>
 				<a href="{$config{https_url}}/view/" menu="ep_tm_menu_browse">
 				    <epc:phrase ref="template/navigation:browse"/>
 				</a>
@@ -81,7 +81,7 @@
 				    Search
 				</a>
 			    </li>
-			    <li class="homepage-menu-list">
+			    <li>
 				<a href="{$config{base_url}}/links.html">
 				    Links 
 				</a>
