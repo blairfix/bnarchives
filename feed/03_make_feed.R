@@ -72,8 +72,9 @@ for(i in 1:nrow(d) ){
 
     abstract = paste(
 		     '<div class="feed-abstract">',
+		     link_stub,
 		     abstract,
-		     "</div>",
+		     "</a></div>",
 		     sep = ""
     )
 
