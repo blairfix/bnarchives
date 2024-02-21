@@ -76,7 +76,7 @@ for(i in 1:nrow(d) ){
     grid_item[i] = paste(
 			 '<div class="grid-item">',
 			 link_stub,
-			 '<div>',
+			 '<div style="height:100%">',
 			 img, 
 			 author,
 			 title,
