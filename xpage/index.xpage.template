@@ -163,7 +163,10 @@
 
 	<div class="homepage_box">
 	    <div class="homepage_heading_panel">
-		<div class="homepage_box_heading">About</div>
+		<div class="homepage_box_heading">
+		    About
+		    <img class="homepage_icon" src="/images/about_icon.png" />
+		</div>
 	    </div>
 	    <div class="homepage_box_content">
 		<ul>
