@@ -42,9 +42,11 @@ for(i in 1:nrow(d) ){
     )
 
 
-
     img = paste(
 		'<div class="feed-img">',
+		'<a href="',
+		url,
+		'">',
 		'<img style="width:100%;" src="', 
 		sub$img,
 		'"/></div>',
