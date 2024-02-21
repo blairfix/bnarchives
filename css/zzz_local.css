@@ -268,17 +268,7 @@ h3 {
     padding-left: 10pt;
     padding-right: 10pt;
     padding-top: 10pt;
-}
-
-a.homepage_heading_link{
-    text-decoration: none !important;
-    color: black;
-}
-
-
-a.homepage_heading_link{
-    text-decoration: none !important;
-    color: black;
+    paddint-bottom: 10pt;
 }
 
 
