@@ -83,12 +83,13 @@ for(i in 1:nrow(d) ){
     grid_item[i] = paste(
 			 '<div class="grid-item">',
 			 link_stub,
+			 '<div>',
 			 img, 
 			 author,
 			 title,
 			 date,
 			 abstract,
-			 '</a>',
+			 '</div></a>',
 			 "</div>",
 			 sep = ""
     )
