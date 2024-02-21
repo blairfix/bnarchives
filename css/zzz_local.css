@@ -111,7 +111,7 @@ h3 {
 
 .ep_tm_menu {
     background-image: none; 
-    width: 50px;
+    width: 50px !important;
 }
 
 #menu {
