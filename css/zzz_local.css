@@ -125,6 +125,7 @@ h3 {
     justify-content: center;
 }
 
+
 #local_menu {
     z-index: 1;
     position: relative;
@@ -288,7 +289,8 @@ h3 {
     }
 
     #menu {
-	height: 60px !important;
+	height: 100px !important;
+	display: block !important;
 	border: 0px none;
 	clear: left !important;
     }
