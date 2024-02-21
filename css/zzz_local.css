@@ -273,6 +273,13 @@ a.homepage_heading_link{
 }
 
 
+a.homepage_heading_link{
+    text-decoration: none !important;
+    color: black;
+}
+
+
+
 /* responsiveness */
 @media (max-width: 660px) {
 
