@@ -205,7 +205,7 @@ h3 {
     padding: .5em;
 }
 
-#grid>div:hover{
+.grid-item:hover{
     color: #666666 !important;
 }
 
