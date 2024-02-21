@@ -77,7 +77,8 @@ for(i in 1:nrow(d) ){
 			 title,
 			 date,
 			 abstract,
-			 "</a></div>"
+			 "</a></div>",
+			 sep = ""
     )
 
 }
