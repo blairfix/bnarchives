@@ -1,5 +1,6 @@
 library(magrittr)
 library(data.table)
+library(stringi)
 
 urls = readLines("bn_urls.txt")
 
@@ -87,7 +88,23 @@ for( i in 1:length(urls) ){
 
     }
 
-    author = paste(author, collapse = "; " )
+    author = strsplit( author, "," )
+    first_name = sapply(author, "[", 2) %>% unlist() %>% trimws()
+    last_name = sapply(author, "[", 1)  %>% unlist() %>% trimws()
+
+    author = paste(
+		   first_name,
+		   " ",
+		   last_name,
+		   ",",
+		   sep = ""
+		  ) 
+
+    author = paste(author, collapse = " ")
+
+    author = stri_replace_last_fixed(author, ',', '')
+    author = stri_replace_last_fixed(author, ', ', ' and ')
+
 
     # bind
     d = data.table(
