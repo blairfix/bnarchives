@@ -7,4 +7,4 @@ systemctl enable generate.timer
 systemctl start generate.timer
 systemctl restart generate.timer
 
-cp generate.sh ~/bin
+cp generate.sh /home/eprints/bin
