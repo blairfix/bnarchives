@@ -19,7 +19,7 @@ for(i in 1:nrow(d) ){
     link_stub = paste(
 		      '<a class="feed-link" href="',
 		      url,
-		      '">'
+		      '">',
 		      sep = ""
 		      )
 
