@@ -24,51 +24,51 @@
 		<div id="menu">
 		    <div id="local_menu">
 			<ul class="ep_tm_menu">
-			    <li>
+			    <li class="homepage-menu-list">
 				<a href="{$config{https_url}}">
 				    <epc:phrase ref="template/navigation:home"/>
 				</a>
 			    </li>
-			    <li>
+			    <li class="homepage-menu-list">
 				<a href="{$config{https_url}}/cgi/latest">
 				    What's New 
 				</a>
 			    </li>
-			    <li>
+			    <li class="homepage-menu-list">
 				<a href="{$config{https_url}}/overview.html">
 				    Overview 
 				</a>
 			    </li>
-			    <li>
+			    <li class="homepage-menu-list">
 				<a href="{$config{https_url}}/view/" menu="ep_tm_menu_browse">
 				    <epc:phrase ref="template/navigation:browse"/>
 				</a>
 				<ul id="ep_tm_menu_browse" style="display:none;">
-				    <li>
+				    <li class="homepage-menu-list">
 					<a href="{$config{https_url}}/view/year/">
 					    <epc:phrase ref="bin/generate_views:indextitleprefix"/>
 					    <epc:phrase ref="viewname_eprint_year"/>
 					</a>
 				    </li>
-				    <li>
+				    <li class="homepage-menu-list">
 					<a href="{$config{https_url}}/view/creators/">
 					    <epc:phrase ref="bin/generate_views:indextitleprefix"/>
 					    <epc:phrase ref="viewname_eprint_creators"/>
 					</a>
 				    </li>
-				    <li>
+				    <li class="homepage-menu-list">
 					<a href="{$config{https_url}}/view/subjects/">
 					    <epc:phrase ref="bin/generate_views:indextitleprefix"/>
 					    <epc:phrase ref="viewname_eprint_subjects"/>
 					</a>
 				    </li>
-				    <li>
+				    <li class="homepage-menu-list">
 					<a href="{$config{https_url}}/view/lang/">
 					    <epc:phrase ref="bin/generate_views:indextitleprefix"/>
 					    Language 
 					</a>
 				    </li>
-				    <li>
+				    <li class="homepage-menu-list">
 					<a href="{$config{https_url}}/view/year2/">
 					    <epc:phrase ref="bin/generate_views:indextitleprefix"/>
 					    Publication Type
@@ -76,12 +76,12 @@
 				    </li>
 				</ul>
 			    </li>
-			    <li>
+			    <li class="homepage-menu-list">
 				<a href="{$config{https_url}}/cgi/search/advanced">
 				    Search
 				</a>
 			    </li>
-			    <li>
+			    <li class="homepage-menu-list">
 				<a href="{$config{base_url}}/links.html">
 				    Links 
 				</a>
