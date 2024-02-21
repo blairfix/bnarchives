@@ -286,10 +286,11 @@ h3 {
 
     .ep_tm_menu li{
 	display: block !important;
+	width: 100% !important;
     }
 
+
     #menu {
-	height: 500px !important;
 	display: block !important;
 	border: 0px none;
 	clear: left !important;
