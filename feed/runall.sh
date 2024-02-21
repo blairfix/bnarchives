@@ -11,7 +11,8 @@ do
 done
 
 # generate html
-/opt/eprints3/bin/generate_static bnarchives
+runuser -l eprints -c '/opt/eprints3/bin/generate_static bnarchives'
+
 
 # reload
 #epadmin reload --force bnarchives
