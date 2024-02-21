@@ -16,11 +16,17 @@ for(i in 1:nrow(d) ){
     sub = d[i]
     url = sub$url
 
+    link_stub = paste(
+		      '<a class="feed-link" href="',
+		      url,
+		      '">'
+		      sep = ""
+		      )
+
+
     title = paste(
 		  '<div class="feed-title">',
-		  '<a class="feed-link" href="',
-		  url,
-		  '">',
+		  link_stub,
 		  sub$title,
 		  "</a></div>",
 		  sep = ""
