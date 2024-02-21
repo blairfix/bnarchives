@@ -242,7 +242,8 @@ h3 {
 
 
 
-/* homepage box */
+/* -------- homepage box -------------- */
+
 .homepage_box {
     margin-top: 10pt;
     margin-bottom: 10pt;
@@ -273,7 +274,7 @@ h3 {
 
 
 
-/* responsiveness */
+/* --------  responsiveness ------------ */
 @media (max-width: 660px) {
 
     .ep_tm_menu li{
