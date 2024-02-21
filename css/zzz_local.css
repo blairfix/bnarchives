@@ -205,7 +205,7 @@ h3 {
     padding: .5em;
 }
 
-#grid:where(:hover, :focus) {
+.grid-item:where(:hover, :focus) {
     color: #666666;
 }
 
