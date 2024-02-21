@@ -139,7 +139,7 @@ h3 {
     position: relative;
 }
 
-.ep_tm_menu li:active{
+.ep_tm_menu:active{
 	background-color: #313131 !important;
 }
 
