@@ -210,6 +210,10 @@ h3 {
     width: 33%;
 }
 
+.feed-img: hover{
+   border: 1px solid #000; 
+}
+
 .feed-title{
     font-size: 100%;
     font-weight: bold;
