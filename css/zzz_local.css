@@ -193,14 +193,15 @@ h3 {
     max-width: 400px;
 }
 
-.grid-item:hover{
-    color: #666666 !important;
-}
 
 #grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 20px;
+}
+
+#grid:hover{
+    color: #666666 !important;
 }
 
 #grid>div {
