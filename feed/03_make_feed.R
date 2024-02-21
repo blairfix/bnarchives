@@ -34,17 +34,19 @@ for(i in 1:nrow(d) ){
 
     author = paste(
 		   '<div class="feed-author">',
+		   link_stub,
 		   sub$author,
-		   "</div>",
+		   "</a></div>",
 		   sep = ""
     )
 
 
     date = paste(
-		   '<div class="feed-date">',
-		   sub$date,
-		   "</div>",
-		   sep = ""
+		 '<div class="feed-date">',
+		 link_stub,
+		 sub$date,
+		 "</a></div>",
+		 sep = ""
     )
 
 
