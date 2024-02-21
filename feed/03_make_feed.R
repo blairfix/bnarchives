@@ -26,38 +26,32 @@ for(i in 1:nrow(d) ){
 
     title = paste(
 		  '<div class="feed-title">',
-		  link_stub,
 		  sub$title,
-		  "</a></div>",
+		  "</div>",
 		  sep = ""
     )
 
     author = paste(
 		   '<div class="feed-author">',
-		   link_stub,
 		   sub$author,
-		   "</a></div>",
+		   "</div>",
 		   sep = ""
     )
 
 
     date = paste(
 		 '<div class="feed-date">',
-		 link_stub,
 		 sub$date,
-		 "</a></div>",
+		 "</div>",
 		 sep = ""
     )
 
 
     img = paste(
 		'<div class="feed-img">',
-		'<a href="',
-		url,
-		'">',
 		'<img style="width:100%;" src="', 
 		sub$img,
-		'"/></a></div>',
+		'"/></div>',
 		sep = ""
     )
 
