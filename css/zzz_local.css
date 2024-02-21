@@ -206,6 +206,11 @@ h3 {
 }
 
 
+.grid-link:hover{
+    color: #666666;
+}
+
+
 .feed-img{
     float:right;
     padding: 10px 10px 10px 10px;
