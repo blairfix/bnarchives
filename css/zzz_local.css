@@ -140,7 +140,7 @@ h3 {
 }
 
 .ep_tm_menu li:active{
-	background-color: #313131;
+	background-color: #313131 !important;
 }
 
 .ep_tm_menu{
