@@ -116,7 +116,10 @@
 	<!-- mailchimp -->
 	<div class="homepage_box">
 	    <div class="homepage_heading_panel">
-		<div class="homepage_box_heading">Updates</div>
+		<div class="homepage_box_heading">
+		    Updates
+		    <img class="homepage_icon" src="/images/mail_icon.png" />
+		</div>
 	    </div>
 	    <div class="homepage_box_content">
 
