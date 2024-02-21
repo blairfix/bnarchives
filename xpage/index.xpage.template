@@ -18,6 +18,8 @@
 	<div class="homepage_box">
 	    <div class="homepage_heading_panel">
 		<div class="homepage_box_heading">Search the Bichler &amp; Nitzan Archives</div>
+
+		<img src="/images/search_icon.png" height="30px" style="float:right" />
 	    </div>
 	    <div class="homepage_box_content">
 
