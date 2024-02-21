@@ -252,6 +252,8 @@ h3 {
 }
 
 .homepage_box_heading {
+    padding-left: 10pt;
+    padding-right: 10pt;
     font-size: 110%;
     font-weight: bold;
 }
