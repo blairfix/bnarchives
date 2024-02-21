@@ -47,9 +47,8 @@ for(i in 1:nrow(d) ){
 		'<a href="',
 		url,
 		'">',
-		'<img style="width:100%;" src="', 
 		sub$img,
-		'"/></a></div>',
+		'"/></div>',
 		sep = ""
     )
 
@@ -73,12 +72,15 @@ for(i in 1:nrow(d) ){
     # make grid item
     grid_item[i] = paste(
 			 '<div class="grid-item">',
+			 'a href="',
+			 url,
+			 '">',
 			 img, 
 			 author,
 			 title,
 			 date,
 			 abstract,
-			 "</div>"
+			 "</a></div>"
     )
 
 }
