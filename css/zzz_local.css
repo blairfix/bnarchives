@@ -272,6 +272,10 @@ h3 {
     padding-bottom: 10pt;
 }
 
+.homepage_icon{
+    height=30px;
+    float: right;
+}
 
 
 /* --------  responsiveness ------------ */

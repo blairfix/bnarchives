@@ -19,7 +19,7 @@
 	    <div class="homepage_heading_panel">
 		<div class="homepage_box_heading">
 		    Search the Bichler &amp; Nitzan Archives
-		<img src="/images/search_icon.png" height="30px" style="float:right" />
+		<img class="homepage_icon" src="/images/search_icon.png" />
 	    </div>
 
 	    </div>
@@ -44,8 +44,8 @@
 	<div class="homepage_box">
 	    <div class="homepage_heading_panel">
 		<div class="homepage_box_heading">
-		    <img src="/images/new_doc.png" height="30px" style="float:right" />
 		    <a class="feed-link" href="{$config{perl_url}}/latest">What’s New</a>
+		    <img class="homepage_icon" src="/images/new_doc.png" />
 		</div>
 	    </div>
 	    <div class="homepage_box_content">
