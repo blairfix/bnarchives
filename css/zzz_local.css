@@ -42,10 +42,6 @@ body {
 }
 
 
-/*-------- search results -------------------- */
-
-.ep_search_result{
-}
 
 
 
@@ -113,6 +109,9 @@ h3 {
     background-image: none; 
 }
 
+.homepage-menu-list{
+    width: 80px;
+}
 
 
 #menu {
