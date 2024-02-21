@@ -18,11 +18,8 @@ for(i in 1:nrow(d) ){
 
     title = paste(
 		  '<div class="feed-title">',
-		  '<a class="feed-link" href="',
-		  url,
-		  '">',
 		  sub$title,
-		  "</a></div>",
+		  "</div>",
 		  sep = ""
     )
 
@@ -72,7 +69,7 @@ for(i in 1:nrow(d) ){
     # make grid item
     grid_item[i] = paste(
 			 '<div class="grid-item">',
-			 'a href="',
+			 '<a class="feed-link" href="',
 			 url,
 			 '">',
 			 img, 
