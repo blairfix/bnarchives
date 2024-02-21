@@ -81,6 +81,7 @@ for(i in 1:nrow(d) ){
 
     # make grid item
     grid_item[i] = paste(
+			 link_stub,
 			 '<div class="grid-item">',
 			 img, 
 			 author,
@@ -88,6 +89,7 @@ for(i in 1:nrow(d) ){
 			 date,
 			 abstract,
 			 "</div>",
+			 '</a>',
 			 sep = ""
     )
 
