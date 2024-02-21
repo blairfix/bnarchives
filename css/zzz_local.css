@@ -139,6 +139,10 @@ h3 {
     position: relative;
 }
 
+.ep_tm_menu li:active{
+	background-color: #313131 !important;
+}
+
 .ep_tm_menu{
     width: 100%;
 }
@@ -208,9 +212,8 @@ h3 {
 }
 
 .grid-item:where(:active) {
-    background-color: #fff0f3;
+    background-color: #fff8f9;
 }
-
 
 .feed-img{
     float:right;
