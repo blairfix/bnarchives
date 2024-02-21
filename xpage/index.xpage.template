@@ -14,7 +14,6 @@
 	<p> Welcome to <i>The Bichler &amp; Nitzan Archives.</i> The archives contain our own publications as well as related items. You are free to view, download, email, print, web-link and web-post material by Shimshon Bichler and/or Jonathan Nitzan with explicit and due attribution of authorship and publication. Commercial use is forbidden. </p>
 
 	<!-- search -->
-	Search the Bichler &amp; Nitzan Archives
 
 	<div class="homepage_box">
 	    <div class="homepage_heading_panel">
@@ -22,7 +21,6 @@
 	    </div>
 	    <div class="homepage_box_content">
 
-		<div style="padding-left: 5px">
 
 		    <form method="get" accept-charset="utf-8" action="/cgi/search" style="display:inline" role="search" aria-label="Publication simple search">
 			<input class="ep_tm_searchbarbox" type="text" name="q" aria-labelledby="searchbutton" />
@@ -34,7 +32,6 @@
 		    </form>
 
 		    <p><a href="{$config{perl_url}}/search/advanced">Advanced search</a></p>
-		</div>
 	    </div>
 	</div>
 
