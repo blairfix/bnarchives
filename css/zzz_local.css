@@ -291,7 +291,7 @@ h3 {
 
 
     #menu {
-	display: block !important;
+	height: 100%;
 	border: 0px none;
 	clear: left !important;
     }
