@@ -45,7 +45,7 @@
 	    <div class="homepage_heading_panel">
 		<div class="homepage_box_heading">
 		    <a class="feed-link" href="{$config{perl_url}}/latest">What’s New</a>
-		    <img class="homepage_icon" src="/images/new_doc.png" />
+		    <img class="homepage_icon" src="/images/doc_icon.png" />
 		</div>
 	    </div>
 	    <div class="homepage_box_content">
@@ -83,7 +83,10 @@
 	<!-- casp sites -->
 	<div class="homepage_box">
 	    <div class="homepage_heading_panel">
-		<div class="homepage_box_heading">Capital-as-Power Sites</div>
+		<div class="homepage_box_heading">
+		    Capital-as-Power Sites
+		    <img class="homepage_icon" src="/images/link_icon.png" />
+	    </div>
 	    </div>
 	    <div class="homepage_box_content">
 		<div id="grid">
