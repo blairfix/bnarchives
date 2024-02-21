@@ -206,7 +206,7 @@ h3 {
 }
 
 .grid-item:where(:hover, :focus) {
-    background-color: #eeeeee;
+    background-color: #f3f3f3;
 }
 
 
@@ -242,7 +242,9 @@ h3 {
     color: inherit !important;
 }
 
-
+.feed-link:hover{
+    color: #666666;
+}
 
 
 /* -------- homepage box -------------- */
