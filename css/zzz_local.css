@@ -200,14 +200,14 @@ h3 {
     grid-gap: 20px;
 }
 
-#grid:hover{
-    color: #666666 !important;
-}
 
 #grid>div {
     padding: .5em;
 }
 
+#grid>div:hover{
+    color: #666666 !important;
+}
 
 .feed-img{
     float:right;
