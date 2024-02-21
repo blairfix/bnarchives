@@ -208,7 +208,7 @@ h3 {
 }
 
 .grid-item:where(:active) {
-    background-color: #ffe9ec;
+    background-color: #fff0f3;
 }
 
 
