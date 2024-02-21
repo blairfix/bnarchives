@@ -285,12 +285,11 @@ h3 {
 @media (max-width: 660px) {
 
     .ep_tm_menu li{
-	float: left !important;
+	display: block !important;
     }
 
     #menu {
-	height: 100px !important;
-	display: block !important;
+	height: 500px !important;
 	border: 0px none;
 	clear: left !important;
     }
