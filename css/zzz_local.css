@@ -233,6 +233,7 @@ h3 {
 
 .feed-link{
     text-decoration: none;
+    color: black;
 }
 
 .feed-link:hover {color: #666666;}
