@@ -103,7 +103,7 @@ for( i in 1:length(urls) ){
     author = paste(author, collapse = " ")
 
     author = stri_replace_last_fixed(author, ',', '')
-    author = stri_replace_last_fixed(author, ', ', '&amp; ')
+    author = stri_replace_last_fixed(author, ', ', ' &amp; ')
 
 
     # bind
