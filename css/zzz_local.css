@@ -239,12 +239,9 @@ h3 {
 
 .feed-link{
     text-decoration: none;
-    color: black !important;
+    color: inherit !important;
 }
 
-.feed-link:hover {
-    color: #666666 !important;
-}
 
 
 
