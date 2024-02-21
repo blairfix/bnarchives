@@ -40,14 +40,12 @@
 	<div class="homepage_box">
 	    <div class="homepage_heading_panel">
 		<div class="homepage_box_heading">
-		    <a href="{$config{perl_url}}/latest">What’s New</a>
+		    <a class="homepage_heading_link" href="{$config{perl_url}}/latest">What’s New</a>
 		</div>
 	    </div>
 	    <div class="homepage_box_content">
-
 		feed-goes-here
-
-		<div> <a href="{$config{perl_url}}/latest">More of what’s new</a></div>
+		<div><a href="{$config{perl_url}}/latest">More of what’s new</a></div>
 
 	    </div>
 	</div>
