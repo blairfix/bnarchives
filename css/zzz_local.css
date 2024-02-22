@@ -110,17 +110,17 @@ h3 {
 #hamburger-menu {
     width: 50px;
     height: 50px;
-    display: block;
+    display: none;
     border: none;
     padding: 0px;
     margin: 20px;
     background: linear-gradient(
-      to bottom, 
-      #3D0E61, #3D0E61 20%, 
-      white 20%, white 40%, 
-      #3D0E61 40%, #3D0E61 60%, 
-      white 60%, white 80%, 
-      #3D0E61 80%, #3D0E61 100%
+    to bottom, 
+    #3D0E61, #3D0E61 20%, 
+    white 20%, white 40%, 
+    #3D0E61 40%, #3D0E61 60%, 
+    white 60%, white 80%, 
+    #3D0E61 80%, #3D0E61 100%
     );
 }
 
@@ -180,7 +180,7 @@ h3 {
 }
 
 .ep_tm_menu li:active{
-	background-color: #313131 !important;
+    background-color: #313131 !important;
 }
 
 .ep_tm_menu{
@@ -324,9 +324,9 @@ h3 {
 @media (max-width: 660px) {
 
 
-#hamburger-menu {
-    display: inline;
-}
+    #hamburger-menu {
+	display: inline;
+    }
     .ep_tm_menu li{
 	display: block !important;
 	width: 100% !important;
