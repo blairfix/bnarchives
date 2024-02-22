@@ -321,7 +321,7 @@ h3 {
 .mobile-menu {
     display:block;
     width:100%;
-    background-color: #204F76;
+    background: #204F76;
     line-height: 1.6em;
     font-weight: 400;
     width:100%;
@@ -337,7 +337,7 @@ h3 {
     text-align:center;
     width:100%;
     position: absolute;
-    background: #8aa8bd;
+    background: #204F76;
 }
 
 /*Create a horizontal list with spacing*/
