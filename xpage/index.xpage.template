@@ -39,7 +39,7 @@
 			<td><a href="https://bnarchives.yorku.ca/cgi/latest">What's New</a> </td>
 			<td>
 			    <ul>
-				<li>List items added/modified during the past 6 months</li>
+				<li class="homepage-list">List items added/modified during the past 6 months</li>
 			    </ul>
 			</td>
 		    </tr>
@@ -47,7 +47,7 @@
 			<td><a href="https://bnarchives.yorku.ca/overview.html">Overview</a></td>
 			<td>
 			    <ul>
-				<li>Show overview and introductory material</li>
+				<li class="homepage-list">Show overview and introductory material</li>
 			    </ul>
 			</td>
 		    </tr>
@@ -55,7 +55,7 @@
 			<td><a href="https://bnarchives.yorku.ca/view/">Browse</a></td>
 			<td>
 			    <ul>
-				<li>Browse items according to various categories</li>
+				<li class="homepage-list">Browse items according to various categories</li>
 			    </ul>
 			</td>
 		    </tr>
@@ -63,7 +63,7 @@
 			<td><a href="https://bnarchives.yorku.ca/cgi/search/advanced">Search</a></td>
 			<td>
 			    <ul>
-				<li>Search for items using a full range of fields and categories</li>
+				<li class="homepage-list">Search for items using a full range of fields and categories</li>
 			    </ul>
 			</td>
 		    </tr>
@@ -71,7 +71,7 @@
 			<td><a href="https://bnarchives.yorku.ca/links.html">Links</a></td>
 			<td>
 			    <ul>
-				<li>Visit related sites</li>
+				<li class="homepage-list">Visit related sites</li>
 			    </ul>
 			</td>
 		    </tr>
