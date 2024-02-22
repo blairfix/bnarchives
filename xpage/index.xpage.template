@@ -106,9 +106,16 @@
 
 		    <!-- capital as power -->
 		    <div class="grid-item">
-			<h3><a href="http://www.capitalaspower.com">Capital as Power</a></h3>
-			<p>CasP blog, forum, publications, working papers, data and events</p>
+			<a class="feed-link" href="http://www.capitalaspower.com">
+			    <div style="height:100%">
+
+				<h3>Capital as Power</h3>
+				<p>CasP blog, forum, publications, working papers, data and events</p>
+			    </div>
+			</a>
 		    </div>
+
+
 
 		    <!-- recasp -->
 		    <div class="grid-item">
