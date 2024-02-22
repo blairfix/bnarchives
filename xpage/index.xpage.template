@@ -23,8 +23,6 @@
 	    </div>
 	    <div class="homepage_box_content">
 		feed-goes-here
-		<div><a href="{$config{perl_url}}/latest">More of what’s new</a></div>
-
 	    </div>
 	</div>
 
