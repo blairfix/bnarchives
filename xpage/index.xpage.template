@@ -96,7 +96,7 @@
 
 		    <!-- creorder youtube-->
 		    <div class="grid-item">
-			<a href="https://www.youtube.com/user/Creorder">
+			<a class="feed-link" href="https://www.youtube.com/user/Creorder">
 			    <div style="height:100%">
 				<h3>Creorder Videos</h3>
 				<p>Videos of CasP conferences, presentations, talks, debates and interviews</p>
