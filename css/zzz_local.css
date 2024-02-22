@@ -57,6 +57,7 @@ body {
 
 
 h2.latest {
+    font-size: 100%;
     margin-top:30px;
     border-bottom: 1px solid #e1e1e1;
 }
@@ -149,14 +150,6 @@ h3 {
 
 .ep_toolbox {
     margin-bottom: 0px;
-}
-
-.hr-home{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 1px;
-    background-color: #ececec;
-    border-color: #ececec;
 }
 
 .creative-commons {
