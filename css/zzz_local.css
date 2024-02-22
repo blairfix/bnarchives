@@ -135,11 +135,6 @@ h3 {
     padding-right: 25px;
 }
 
-#nav ul {
-    display: inline-block;
-    list-style-type: none;
-}
-
 #menu {
     background-color: #204F76;
     z-index: 100;
@@ -158,6 +153,7 @@ h3 {
     z-index: 1;
     position: relative;
     border: 0;
+    margin: auto;
 }
 
 #local_menu_search {
