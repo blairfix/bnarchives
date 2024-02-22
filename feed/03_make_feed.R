@@ -57,7 +57,7 @@ for(i in 1:nrow(d) ){
 
 
     abstract = strsplit( sub$abstract, " " ) %>% unlist()
-    abstract = head(abstract, 75)
+    abstract = head(abstract, 50)
     abstract = paste(abstract, collapse = " ")
 
     if( nchar(abstract) < nchar(sub$abstract) ){
