@@ -288,35 +288,10 @@ h3 {
 }
 
 
-/* --------  responsiveness ------------ */
-@media (max-width: 660px) {
-
-
-    #hamburger-menu {
-	display: inline !important;
-    }
-    .ep_tm_menu li{
-	display: block !important;
-	width: 100% !important;
-    }
-
-
-    #menu {
-	height: 100%;
-	clear: left !important;
-    }
-
-    .ep_tm_key_tools {
-	display: none !important;
-    }
-
-}
 
 
 
-
-
-/* --------  test !!! ------------ */
+/* --------  main menu ------------ */
 /* code from here: https://codepen.io/deyand/pen/pvmyjw */
 
 .mobile-menu {
@@ -441,6 +416,11 @@ h3 {
 /* responsive styles */
 
 @media screen and (max-width : 700px){
+
+    .ep_tm_key_tools {
+	display: none !important;
+    }
+
     .mobile-menu .lines {
 	border-bottom: 15px double #f8f8f8; 
 	border-top: 5px solid #f8f8f8; 
