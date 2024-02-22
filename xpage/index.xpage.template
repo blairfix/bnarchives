@@ -18,7 +18,7 @@
 	<div class="homepage_box">
 	    <div class="homepage_heading_panel">
 		<div class="homepage_box_heading">
-		    <a class="feed-link" href="{$config{perl_url}}/latest">What’s New</a>
+		    <a class="feed-link" href="{$config{perl_url}}/latest">Recent Entries</a>
 		</div>
 	    </div>
 	    <div class="homepage_box_content">
