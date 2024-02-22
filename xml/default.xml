@@ -21,8 +21,9 @@
 	    </div>
 
 	    <!-- menu -->
-	    <button id="hamburger-menu">
-		<div id="menu">
+	    <div id="menu">
+
+		<button id="hamburger-menu">
 		    <div id="local_menu">
 			<ul class="ep_tm_menu">
 			    <li>
@@ -90,8 +91,8 @@
 			</ul>
 		    </div>
 		</div>
-	    </div>
-	</button>
+	    </button>
+	</div>
 
 	<!-- content -->
 	<div>
