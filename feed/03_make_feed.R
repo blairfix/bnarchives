@@ -3,7 +3,7 @@ library(magrittr)
 
 d = fread("metadata.csv")
 
-d = head(d, 8)
+d = head(d, 4)
 
 
 # loop over items and make grid
