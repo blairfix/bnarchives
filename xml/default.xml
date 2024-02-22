@@ -35,7 +35,7 @@
 			    <li><a href="{$config{https_url}}/view/creators/">by Author</a></li>
 			    <li><a href="{$config{https_url}}/view/subjects/">by Subject</a></li>
 			    <li><a href="{$config{https_url}}/view/lang/">by Language</a></li>
-			    <li><a href="$config{https_url}}/view/year2/">by Publication Type</a></li>
+			    <li><a href="{$config{https_url}}/view/year2/">by Publication Type</a></li>
 			</ul>
 		    </li>
 		    <li><a href="{$config{https_url}}/cgi/search/advanced">Search</a></li>
