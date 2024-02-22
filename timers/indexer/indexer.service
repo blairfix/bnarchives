@@ -1,9 +1,9 @@
 [Unit]
-Description=update site
+Description=start eprints indexer
 
 [Service]
 Type=simple
-ExecStart=/home/eprints/bin/generate.sh
+ExecStart=/home/eprints/bin/indexer.sh
 
 [Install]
 WantedBy=timers.target

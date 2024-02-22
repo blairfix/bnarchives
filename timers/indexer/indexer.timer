@@ -1,11 +1,10 @@
 [Unit]
-Description=update site 
+Description=start eprints indexer
 
 [Timer]
-OnCalendar=*-*-* 4:00:00
-RandomizedDelaySec=60
+OnBootSec=15min
 Persistent=true
-Unit=generate.service
+Unit=indexer.service
 
 [Install]
 WantedBy=timers.target
