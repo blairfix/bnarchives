@@ -68,13 +68,13 @@
 
 		    <!-- overview -->
 		    <div class="grid-item">
-			<h3> <a href="{$config{base_url}}/overview.html">Overview</a></h3>
+			<div class="feed-title"> <a href="{$config{base_url}}/overview.html">Overview</a></div>
 			<p> Read  an introductory guide to the theory of capital as power (CasP),  intended primarily for those who are new to the subject and want to know where to begin.</p>
 		    </div>
 
 		    <!-- browse -->
 		    <div class="grid-item">
-			<h3> <a href="{$config{base_url}}/view">Browse</a></h3>
+			<div class="feed-title"> <a href="{$config{base_url}}/view">Browse</a></div>
 			<p> Browse the Bichler &amp; Nitzan Archives by publication year, author, subject, language and publication type </p>
 		    </div>
 
@@ -98,7 +98,7 @@
 		    <div class="grid-item">
 			<a class="feed-link" href="https://www.youtube.com/user/Creorder">
 			    <div style="height:100%">
-				<h3>Creorder Videos</h3>
+				<div class="feed-title">Creorder Videos</div>
 				<p>Videos of CasP conferences, presentations, talks, debates and interviews</p>
 			    </div>
 			</a>
@@ -108,7 +108,7 @@
 		    <div class="grid-item">
 			<a class="feed-link" href="http://www.capitalaspower.com">
 			    <div style="height:100%">
-				<h3>Capital as Power</h3>
+				<div class="feed-title">Capital as Power</div>
 				<p>CasP blog, forum, publications, working papers, data and events</p>
 			    </div>
 			</a>
@@ -120,7 +120,7 @@
 			<a class="feed-link" href="http://www.capitalaspower.com/recasp">
 			    <div style="height:100%">
 
-				<h3>RECASP</h3>
+				<div class="feed-title">RECASP</div>
 				<p>The <i>Review of Capital as Power</i>,  an open-access, peer-reviewed journal dedicated to capital-as-power research.</p>
 			    </div>
 			</a>
