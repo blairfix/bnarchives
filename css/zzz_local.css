@@ -433,6 +433,10 @@ h3 {
     max-width: 300px !important;
 }
 
+.mobile-menu li ul:hover{
+    background: #ababab;
+}
+
 
 /* responsive styles */
 
