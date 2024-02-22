@@ -36,7 +36,6 @@ body {
 #wrapper {
     max-width: 900px !important;
 }
-
 #main_content {
     min-height: 640px;
 }
@@ -110,6 +109,9 @@ li.homepage-list {
     margin: -10px;
 }
 
+#mc_embed_signup form {
+    text-align: left;
+}
 
 .ep_toolbox {
     margin-bottom: 0px;
