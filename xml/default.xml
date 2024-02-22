@@ -21,6 +21,7 @@
 	    </div>
 
 	    <!-- test -->
+	    <div>
 	    <nav class="mobile-menu">
 		<label for="show-menu" class="show-menu"><span>Menu</span><div class="lines"></div></label>
 		<input type="checkbox" id="show-menu" />
@@ -32,6 +33,7 @@
 			<li><a href="test">Contact</a></li>
 		    </ul>
 		</nav>
+	    </div>
 
 
 
