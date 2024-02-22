@@ -34,31 +34,30 @@
 			    <li><a href="/">by Year</a></li>
 			    <li><a href="/">by Author</a></li>
 			    <li><a href="/">by Subject</a></li>
-			    <ul>
-			    </li>
-			    <li><a href="{$config{https_url}}/cgi/search/advanced">Search</a></li>
-			    <li><a href="{$config{base_url}}/links.html">Links</a></li>
 			</ul>
-		    </nav>
+			<li><a href="{$config{https_url}}/cgi/search/advanced">Search</a></li>
+			<li><a href="{$config{base_url}}/links.html">Links</a></li>
+		    </ul>
+		</nav>
 
 
+	    </div>
+
+
+	    <!-- content -->
+	    <div>
+		<div class="ep_tm_page_content">
+		    <h1 class="ep_tm_pagetitle">
+			<epc:pin ref="title"/>
+		    </h1>
+		    <epc:pin ref="page"/>
 		</div>
-
-
-		<!-- content -->
-		<div>
-		    <div class="ep_tm_page_content">
-			<h1 class="ep_tm_pagetitle">
-			    <epc:pin ref="title"/>
-			</h1>
-			<epc:pin ref="page"/>
-		    </div>
+	    </div>
+	    <div class="ep_tm_footer ep_noprint">
+		<div class="ep_tm_eprints_logo">
+		    <epc:pin ref="login_status"/>      
 		</div>
-		<div class="ep_tm_footer ep_noprint">
-		    <div class="ep_tm_eprints_logo">
-			<epc:pin ref="login_status"/>      
-		    </div>
-		    <epc:phrase ref="template:about_eprints"/>
-		</div>
-	    </body>
-	</html>
+		<epc:phrase ref="template:about_eprints"/>
+	    </div>
+	</body>
+    </html>
