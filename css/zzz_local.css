@@ -330,6 +330,11 @@ h3 {
 
 
 
+
+
+/* --------  test !!! ------------ */
+
+
 .mobile-menu {
     display:block;
     width:100%;
@@ -438,7 +443,7 @@ h3 {
 }
 
 /*Show menu when invisible checkbox is checked*/
-.mobile-menu input[type=checkbox]:checked ~ #menu{
+.mobile-menu input[type=checkbox]:checked ~ #menu-test{
     display: block;
 }
 
