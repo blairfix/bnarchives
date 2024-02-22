@@ -88,6 +88,7 @@ h1.ep_tm_pagetitle {
     background-image: none;
     background-repeat: none;
     text-align: center;
+    margin-bottom: 0px !important;
 }
 
 .ep_tm_searchbar {
