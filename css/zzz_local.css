@@ -430,7 +430,7 @@ h3 {
 .mobile-menu li:hover ul{
     display: block;
     text-align: left !important;
-    max-width: 300 px !important;
+    max-width: 300px !important;
 }
 
 
