@@ -347,9 +347,8 @@ h3 {
 /*Style for menu links*/
 .mobile-menu li a {
     display:block;
-    min-width:110px;
     text-align: center;
-    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: #fff;
     background: #204F76;
