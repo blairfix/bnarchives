@@ -19,8 +19,8 @@
 	    <div class="homepage_heading_panel">
 		<div class="homepage_box_heading">
 		    Search the Bichler &amp; Nitzan Archives
-		<img class="homepage_icon" src="/images/search_icon.png" />
-	    </div>
+		    <img class="homepage_icon" src="/images/search_icon.png" />
+		</div>
 
 	    </div>
 	    <div class="homepage_box_content">
@@ -89,15 +89,19 @@
 		<div class="homepage_box_heading">
 		    Capital-as-Power Sites
 		    <img class="homepage_icon" src="/images/link_icon.png" />
-	    </div>
+		</div>
 	    </div>
 	    <div class="homepage_box_content">
 		<div id="grid">
 
 		    <!-- creorder youtube-->
 		    <div class="grid-item">
-			<h3><a href="https://www.youtube.com/user/Creorder">Creorder Videos</a></h3>
-			<p>Videos of CasP conferences, presentations, talks, debates and interviews</p>
+			<a href="https://www.youtube.com/user/Creorder">
+			    <div style="height:100%">
+				<h3>Creorder Videos</h3>
+				<p>Videos of CasP conferences, presentations, talks, debates and interviews</p>
+			    </div>
+			</a>
 		    </div>
 
 		    <!-- capital as power -->
