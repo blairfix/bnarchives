@@ -53,11 +53,19 @@
 		    </tr>
 		    <tr>
 			<td><a href="https://bnarchives.yorku.ca/view/">Browse</a></td>
-			<td>– Browse items according to various categories</td>
+			<td>
+			    <ul>
+				<li>Browse items according to various categories</li>
+			    </ul>
+			</td>
 		    </tr>
 		    <tr>
 			<td><a href="https://bnarchives.yorku.ca/cgi/search/advanced">Search</a></td>
-			<td>– Search for items using a full range of fields and categories</td>
+			<td>
+			    <ul>
+				<li>Search for items using a full range of fields and categories</li>
+			    </ul>
+			</td>
 		    </tr>
 		    <tr>
 			<td><a href="https://bnarchives.yorku.ca/links.html">Links</a></td>
