@@ -430,10 +430,10 @@ h3 {
 .mobile-menu li:hover ul{
     display: block;
     text-align: left !important;
-    max-width: 300px !important;
+    max-width: 250px !important;
 }
 
-.mobile-menu li ul:hover{
+.mobile-menu li:hover ul:hover{
     background: #ababab;
 }
 
