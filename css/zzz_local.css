@@ -427,7 +427,7 @@ h3 {
 }
 
 /* sublist */
-.mobile-menu li ul:hover{
+.mobile-menu li:hover ul{
     display: block;
 }
 
