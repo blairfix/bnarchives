@@ -68,151 +68,158 @@
 
 		    <!-- overview -->
 		    <div class="grid-item">
-			<div class="feed-title"> <a href="{$config{base_url}}/overview.html">Overview</a></div>
-			<p> Read  an introductory guide to the theory of capital as power (CasP),  intended primarily for those who are new to the subject and want to know where to begin.</p>
+			<a class="feed-link" href="{$config{base_url}}/overview.html">
+			    <div style="height:100%">
+
+				<div class="feed-title">>Overview</div>
+				<p> Read  an introductory guide to the theory of capital as power (CasP),  intended primarily for those who are new to the subject and want to know where to begin.</p>
+			    </div>
+			</a>
 		    </div>
 
 		    <!-- browse -->
 		    <div class="grid-item">
-			<div class="feed-title"> <a href="{$config{base_url}}/view">Browse</a></div>
-			<p> Browse the Bichler &amp; Nitzan Archives by publication year, author, subject, language and publication type </p>
-		    </div>
-
-		</div>
-	    </div>
-	</div>
-
-
-	<!-- casp sites -->
-	<div class="homepage_box">
-	    <div class="homepage_heading_panel">
-		<div class="homepage_box_heading">
-		    Capital-as-Power Sites
-		    <img class="homepage_icon" src="/images/link_icon.png" />
-		</div>
-	    </div>
-	    <div class="homepage_box_content">
-		<div id="grid">
-
-		    <!-- creorder youtube-->
-		    <div class="grid-item">
-			<a class="feed-link" href="https://www.youtube.com/user/Creorder">
+			<a class="feed-link" href="{$config{base_url}}/view">
 			    <div style="height:100%">
-				<div class="feed-title">Creorder Videos</div>
-				<p>Videos of CasP conferences, presentations, talks, debates and interviews</p>
-			    </div>
-			</a>
-		    </div>
-
-		    <!-- capital as power -->
-		    <div class="grid-item">
-			<a class="feed-link" href="http://www.capitalaspower.com">
-			    <div style="height:100%">
-				<div class="feed-title">Capital as Power</div>
-				<p>CasP blog, forum, publications, working papers, data and events</p>
-			    </div>
-			</a>
-		    </div>
-
-
-		    <!-- recasp -->
-		    <div class="grid-item">
-			<a class="feed-link" href="http://www.capitalaspower.com/recasp">
-			    <div style="height:100%">
-
-				<div class="feed-title">RECASP</div>
-				<p>The <i>Review of Capital as Power</i>,  an open-access, peer-reviewed journal dedicated to capital-as-power research.</p>
-			    </div>
-			</a>
-		    </div>
-		</div>
-	    </div>
-	</div>
-
-
-	<!-- mailchimp -->
-	<div class="homepage_box">
-	    <div class="homepage_heading_panel">
-		<div class="homepage_box_heading">
-		    Updates
-		    <img class="homepage_icon" src="/images/mail_icon.png" />
-		</div>
-	    </div>
-	    <div class="homepage_box_content">
-
-		<p>Sign-up to receive periodic alerts of new items:</p>
-
-		<!-- Begin MailChimp Signup Form -->
-		<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"/>
-		<style type="text/css">
-		    #mc_embed_signup {
-		    clear:left; 
-		    width:100%;
-		    margin-top: 3px;
-		    margin-bottom: 3px;
-		    }
-		    #mc_embed_signup input.email { 
-		    font-family: sans-serif;
-		    height: 25px;
-		    font-size: 95%;
-		    }
-		    #mc_embed_signup .button {
-		    font-size: 95%;
-		    height: 25px;
-		    line-height: 25px;
-		    }
-		</style>
-		<div id="mc_embed_signup">
-		    <form action="//yorku.us13.list-manage.com/subscribe/post?u=bb99df23cb4f0749885ca4465&amp;id=7e3e7832fa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-			<div id="mc_embed_signup_scroll">
-
-			    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="required"/>
-			    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-			    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="bb99df23cb4f0749885ca4465&amp;id=7e3e7832fa" tabindex="-1" value=""/></div>
-			    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"/></div>
+				<div class="feed-title">Browse</a></div>
+			    <p> Browse the Bichler &amp; Nitzan Archives by publication year, author, subject, language and publication type </p>
 			</div>
-		    </form>
+		    </div>
+
+	    </div>
+	</div>
+    </div>
+
+
+    <!-- casp sites -->
+    <div class="homepage_box">
+	<div class="homepage_heading_panel">
+	    <div class="homepage_box_heading">
+		Capital-as-Power Sites
+		<img class="homepage_icon" src="/images/link_icon.png" />
+	    </div>
+	</div>
+	<div class="homepage_box_content">
+	    <div id="grid">
+
+		<!-- creorder youtube-->
+		<div class="grid-item">
+		    <a class="feed-link" href="https://www.youtube.com/user/Creorder">
+			<div style="height:100%">
+			    <div class="feed-title">Creorder Videos</div>
+			    <p>Videos of CasP conferences, presentations, talks, debates and interviews</p>
+			</div>
+		    </a>
+		</div>
+
+		<!-- capital as power -->
+		<div class="grid-item">
+		    <a class="feed-link" href="http://www.capitalaspower.com">
+			<div style="height:100%">
+			    <div class="feed-title">Capital as Power</div>
+			    <p>CasP blog, forum, publications, working papers, data and events</p>
+			</div>
+		    </a>
+		</div>
+
+
+		<!-- recasp -->
+		<div class="grid-item">
+		    <a class="feed-link" href="http://www.capitalaspower.com/recasp">
+			<div style="height:100%">
+			    <div class="feed-title">RECASP</div>
+			    <p>The <i>Review of Capital as Power</i>,  an open-access, peer-reviewed journal dedicated to capital-as-power research.</p>
+			</div>
+		    </a>
 		</div>
 	    </div>
-
 	</div>
+    </div>
 
 
-	<div class="homepage_box">
-	    <div class="homepage_heading_panel">
-		<div class="homepage_box_heading">
-		    About
-		    <img class="homepage_icon" src="/images/about_icon.png" />
-		</div>
-	    </div>
-	    <div class="homepage_box_content">
-		<ul>
-		    <li>Shimshon Bichler teaches political economy at colleges and universities in Israel (<a href="mailto:tookie@barak.net.il">tookie@barak.net.il</a>) </li>
-		    <li> Jonathan Nitzan teaches political economy at York University in Canada (<a href="mailto:nitzan@yorku.ca">nitzan@yorku.ca</a>) </li>
-		</ul>
+    <!-- mailchimp -->
+    <div class="homepage_box">
+	<div class="homepage_heading_panel">
+	    <div class="homepage_box_heading">
+		Updates
+		<img class="homepage_icon" src="/images/mail_icon.png" />
 	    </div>
 	</div>
+	<div class="homepage_box_content">
 
+	    <p>Sign-up to receive periodic alerts of new items:</p>
 
-	<!-- rss -->
+	    <!-- Begin MailChimp Signup Form -->
+	    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"/>
+	    <style type="text/css">
+		#mc_embed_signup {
+		clear:left; 
+		width:100%;
+		margin-top: 3px;
+		margin-bottom: 3px;
+		}
+		#mc_embed_signup input.email { 
+		font-family: sans-serif;
+		height: 25px;
+		font-size: 95%;
+		}
+		#mc_embed_signup .button {
+		font-size: 95%;
+		height: 25px;
+		line-height: 25px;
+		}
+	    </style>
+	    <div id="mc_embed_signup">
+		<form action="//yorku.us13.list-manage.com/subscribe/post?u=bb99df23cb4f0749885ca4465&amp;id=7e3e7832fa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+		    <div id="mc_embed_signup_scroll">
 
-	<div style="text-align: center;margin-top:20px;margin-bottom:20px">
-	    <span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=Atom"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=Atom">Atom</a></span>
-	    <span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS">RSS 1.0</a></span>
-	    <span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS2"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS2">RSS 2.0</a></span>
+			<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="required"/>
+			<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="bb99df23cb4f0749885ca4465&amp;id=7e3e7832fa" tabindex="-1" value=""/></div>
+			<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"/></div>
+		    </div>
+		</form>
+	    </div>
 	</div>
 
+    </div>
 
-	<!-- creative commons -->
-	<div class="creative-commons">
-	    <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" title="Creative Commons"> <img  alt="{phrase('archive_name')}" width="100px" src="/images/somerights.png"/></a>
-	    <div> This site is licensed under a Creative Commons License (Attribution-NonCommercial-NoDeriatives).</div>
 
+    <div class="homepage_box">
+	<div class="homepage_heading_panel">
+	    <div class="homepage_box_heading">
+		About
+		<img class="homepage_icon" src="/images/about_icon.png" />
+	    </div>
 	</div>
+	<div class="homepage_box_content">
+	    <ul>
+		<li>Shimshon Bichler teaches political economy at colleges and universities in Israel (<a href="mailto:tookie@barak.net.il">tookie@barak.net.il</a>) </li>
+		<li> Jonathan Nitzan teaches political economy at York University in Canada (<a href="mailto:nitzan@yorku.ca">nitzan@yorku.ca</a>) </li>
+	    </ul>
+	</div>
+    </div>
+
+
+    <!-- rss -->
+
+    <div style="text-align: center;margin-top:20px;margin-bottom:20px">
+	<span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=Atom"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=Atom">Atom</a></span>
+	<span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS">RSS 1.0</a></span>
+	<span class="ep_search_feed"><a href="{$config{rel_cgipath}}/latest_tool?output=RSS2"><img alt="[feed]" src="{$config{rel_path}}/style/images/feed-icon-14x14.png" border="0" /></a> <a href="{$config{rel_cgipath}}/latest_tool?output=RSS2">RSS 2.0</a></span>
+    </div>
+
+
+    <!-- creative commons -->
+    <div class="creative-commons">
+	<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" title="Creative Commons"> <img  alt="{phrase('archive_name')}" width="100px" src="/images/somerights.png"/></a>
+	<div> This site is licensed under a Creative Commons License (Attribution-NonCommercial-NoDeriatives).</div>
+
+    </div>
 
 
 
 
 
-    </xpage:body>
+</xpage:body>
 </xpage:page>
