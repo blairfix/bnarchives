@@ -118,7 +118,7 @@ h3 {
     width: 100%;
     clear: none;
     padding: 0px;
-    border: 0px none;
+    border: 0;
     vertical-align: top;
     display: flex;
     justify-content: center;
