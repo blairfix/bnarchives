@@ -13,39 +13,12 @@
 	<!-- welcome -->
 	<p> Welcome to <i>The Bichler &amp; Nitzan Archives.</i> The archives contain our own publications as well as related items. You are free to view, download, email, print, web-link and web-post material by Shimshon Bichler and/or Jonathan Nitzan with explicit and due attribution of authorship and publication. Commercial use is forbidden. </p>
 
-	<!-- search -->
-
-	<div class="homepage_box">
-	    <div class="homepage_heading_panel">
-		<div class="homepage_box_heading">
-		    Search the Bichler &amp; Nitzan Archives
-		    <img class="homepage_icon" src="/images/search_icon.png" />
-		</div>
-
-	    </div>
-	    <div class="homepage_box_content">
-
-
-		<form method="get" accept-charset="utf-8" action="/cgi/search" style="display:inline" role="search" aria-label="Publication simple search">
-		    <input class="ep_tm_searchbarbox" type="text" name="q" aria-labelledby="searchbutton" />
-		    <input class="ep_tm_searchbarbutton"  value="Search" type="submit" name="_action_search" id="searchbutton" />
-		    <input type="hidden" name="_action_search" value="Search" />
-		    <input type="hidden" name="_order" value="bytitle" />
-		    <input type="hidden" name="basic_srchtype" value="ALL" />
-		    <input type="hidden" name="_satisfyall" value="ALL" />
-		</form>
-
-		<p><a href="{$config{perl_url}}/search/advanced">Advanced search</a></p>
-	    </div>
-	</div>
-
 
 	<!-- new stuff -->
 	<div class="homepage_box">
 	    <div class="homepage_heading_panel">
 		<div class="homepage_box_heading">
 		    <a class="feed-link" href="{$config{perl_url}}/latest">What’s New</a>
-		    <img class="homepage_icon" src="/images/doc_icon.png" />
 		</div>
 	    </div>
 	    <div class="homepage_box_content">
@@ -60,7 +33,6 @@
 	    <div class="homepage_heading_panel">
 		<div class="homepage_box_heading">
 		    Browse the Bichler &amp; Nitzan Archives
-		    <img class="homepage_icon" src="/images/compass_icon.png" />
 		</div>
 	    </div>
 	    <div class="homepage_box_content">
@@ -97,7 +69,6 @@
 	    <div class="homepage_heading_panel">
 		<div class="homepage_box_heading">
 		    Capital-as-Power Sites
-		    <img class="homepage_icon" src="/images/link_icon.png" />
 		</div>
 	    </div>
 	    <div class="homepage_box_content">
@@ -143,7 +114,6 @@
 	    <div class="homepage_heading_panel">
 		<div class="homepage_box_heading">
 		    Updates
-		    <img class="homepage_icon" src="/images/mail_icon.png" />
 		</div>
 	    </div>
 	    <div class="homepage_box_content">
@@ -190,7 +160,6 @@
 	    <div class="homepage_heading_panel">
 		<div class="homepage_box_heading">
 		    About
-		    <img class="homepage_icon" src="/images/about_icon.png" />
 		</div>
 	    </div>
 	    <div class="homepage_box_content">
