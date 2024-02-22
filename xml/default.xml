@@ -31,9 +31,11 @@
 		    <li>
 			<a href="{$config{https_url}}/view/">Browse</a>
 			<ul>
-			    <li><a href="/">by Year</a></li>
-			    <li><a href="/">by Author</a></li>
-			    <li><a href="/">by Subject</a></li>
+			    <li><a href="{$config{https_url}}/view/year/">by Year</a></li>
+			    <li><a href="{$config{https_url}}/view/creators/">by Author</a></li>
+			    <li><a href="{$config{https_url}}/view/subjects/">by Subject</a></li>
+			    <li><a href="{$config{https_url}}/view/lang/">by Language</a></li>
+			    <li><a href="$config{https_url}}/view/year2/">by Publication Type</a></li>
 			</ul>
 		    </li>
 		    <li><a href="{$config{https_url}}/cgi/search/advanced">Search</a></li>
@@ -48,9 +50,7 @@
 	<!-- content -->
 	<div>
 	    <div class="ep_tm_page_content">
-		<h1 class="ep_tm_pagetitle">
-		    <epc:pin ref="title"/>
-		</h1>
+		<h1 class="ep_tm_pagetitle"> <epc:pin ref="title"/> </h1>
 		<epc:pin ref="page"/>
 	    </div>
 	</div>
