@@ -208,7 +208,7 @@ h3 {
 }
 
 .grid-item:where(:hover, :focus) {
-    background-color: #fafafa;
+    background-color: #fcfcfc;
 }
 
 .grid-item:where(:active) {
