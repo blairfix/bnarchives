@@ -71,7 +71,7 @@
 			<a class="feed-link" href="{$config{base_url}}/overview.html">
 			    <div style="height:100%">
 
-				<div class="feed-title">>Overview</div>
+				<div class="feed-title">Overview</div>
 				<p> Read  an introductory guide to the theory of capital as power (CasP),  intended primarily for those who are new to the subject and want to know where to begin.</p>
 			    </div>
 			</a>
