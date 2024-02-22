@@ -325,7 +325,7 @@ h3 {
 
 
     #hamburger-menu {
-	display: inline;
+	display: inline !important;
     }
     .ep_tm_menu li{
 	display: block !important;
