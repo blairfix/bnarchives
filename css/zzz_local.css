@@ -135,7 +135,10 @@ h3 {
     padding-right: 25px;
 }
 
-
+#nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
 
 #menu {
     background-color: #204F76;
