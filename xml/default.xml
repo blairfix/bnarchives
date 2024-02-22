@@ -21,108 +21,36 @@
 	    </div>
 
 	    <!-- test -->
-	    <div>
 	    <nav class="mobile-menu">
 		<label for="show-menu" class="show-menu"><span>Menu</span><div class="lines"></div></label>
 		<input type="checkbox" id="show-menu" />
-		    <ul id="menu-test">
-			<li><a href="test">Home</a></li>
-			<li><a href="test">About</a></li>
-			<li><a href="test">Portfolio</a></li>
-			<li><a href="test">News</a></li>
-			<li><a href="test">Contact</a></li>
-		    </ul>
-		</nav>
+		<ul id="menu-test">
+		    <li><a href="test">Home</a></li>
+		    <li><a href="test">About</a></li>
+		    <li><a href="test">Portfolio</a></li>
+		    <li><a href="test">News</a></li>
+		    <li><a href="test">Contact</a></li>
+		</ul>
+	    </nav>
+
+
+	</div>
+
+
+	<!-- content -->
+	<div>
+	    <div class="ep_tm_page_content">
+		<h1 class="ep_tm_pagetitle">
+		    <epc:pin ref="title"/>
+		</h1>
+		<epc:pin ref="page"/>
 	    </div>
-
-
-
-		<!-- menu -->
-		<div id="menu">
-		    <div id="local_menu">
-			<ul class="ep_tm_menu">
-			    <li>
-				<a href="{$config{https_url}}">
-				    <epc:phrase ref="template/navigation:home"/>
-				</a>
-			    </li>
-			    <li>
-				<a href="{$config{https_url}}/cgi/latest">
-				    What's New 
-				</a>
-			    </li>
-			    <li>
-				<a href="{$config{https_url}}/overview.html">
-				    Overview 
-				</a>
-			    </li>
-			    <li>
-				<a href="{$config{https_url}}/view/" menu="ep_tm_menu_browse">
-				    <epc:phrase ref="template/navigation:browse"/>
-				</a>
-				<ul id="ep_tm_menu_browse" style="display:none;">
-				    <li>
-					<a href="{$config{https_url}}/view/year/">
-					    <epc:phrase ref="bin/generate_views:indextitleprefix"/>
-					    <epc:phrase ref="viewname_eprint_year"/>
-					</a>
-				    </li>
-				    <li>
-					<a href="{$config{https_url}}/view/creators/">
-					    <epc:phrase ref="bin/generate_views:indextitleprefix"/>
-					    <epc:phrase ref="viewname_eprint_creators"/>
-					</a>
-				    </li>
-				    <li>
-					<a href="{$config{https_url}}/view/subjects/">
-					    <epc:phrase ref="bin/generate_views:indextitleprefix"/>
-					    <epc:phrase ref="viewname_eprint_subjects"/>
-					</a>
-				    </li>
-				    <li>
-					<a href="{$config{https_url}}/view/lang/">
-					    <epc:phrase ref="bin/generate_views:indextitleprefix"/>
-					    Language 
-					</a>
-				    </li>
-				    <li>
-					<a href="{$config{https_url}}/view/year2/">
-					    <epc:phrase ref="bin/generate_views:indextitleprefix"/>
-					    Publication Type
-					</a>
-				    </li>
-				</ul>
-			    </li>
-			    <li>
-				<a href="{$config{https_url}}/cgi/search/advanced">
-				    Search
-				</a>
-			    </li>
-			    <li>
-				<a href="{$config{base_url}}/links.html">
-				    Links 
-				</a>
-			    </li>
-			</ul>
-		    </div>
-		</div>
+	</div>
+	<div class="ep_tm_footer ep_noprint">
+	    <div class="ep_tm_eprints_logo">
+		<epc:pin ref="login_status"/>      
 	    </div>
-
-
-	    <!-- content -->
-	    <div>
-		<div class="ep_tm_page_content">
-		    <h1 class="ep_tm_pagetitle">
-			<epc:pin ref="title"/>
-		    </h1>
-		    <epc:pin ref="page"/>
-		</div>
-	    </div>
-	    <div class="ep_tm_footer ep_noprint">
-		<div class="ep_tm_eprints_logo">
-		    <epc:pin ref="login_status"/>      
-		</div>
-		<epc:phrase ref="template:about_eprints"/>
-	    </div>
-	</body>
-    </html>
+	    <epc:phrase ref="template:about_eprints"/>
+	</div>
+    </body>
+</html>
