@@ -429,8 +429,8 @@ h3 {
 /* sublist */
 .mobile-menu li:hover ul{
     display: block;
-    text-align: left;
-    max-width: 300 px;
+    text-align: left !important;
+    max-width: 300 px !important;
 }
 
 
