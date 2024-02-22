@@ -37,11 +37,19 @@
 		<table width="100%">
 		    <tr>
 			<td><a href="https://bnarchives.yorku.ca/cgi/latest">What's New</a> </td>
-			<td>– List items added/modified during the past 6 months</td>
+			<td>
+			    <ul>
+				<li>List items added/modified during the past 6 months</li>
+			    </ul>
+			</td>
 		    </tr>
 		    <tr>
 			<td><a href="https://bnarchives.yorku.ca/overview.html">Overview</a></td>
-			<td>– Show overview and introductory material</td>
+			<td>
+			    <ul>
+				<li>Show overview and introductory material</li>
+			    </ul>
+			</td>
 		    </tr>
 		    <tr>
 			<td><a href="https://bnarchives.yorku.ca/view/">Browse</a></td>
