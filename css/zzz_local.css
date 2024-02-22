@@ -107,23 +107,6 @@ h3 {
 
 /*-------- menu  -------------------- */
 
-#hamburger-menu {
-    width: 50px;
-    height: 50px;
-    display: none;
-    border: none;
-    padding: 0px;
-    margin: 20px;
-    background: linear-gradient(
-    to bottom, 
-    #3D0E61, #3D0E61 20%, 
-    white 20%, white 40%, 
-    #3D0E61 40%, #3D0E61 60%, 
-    white 60%, white 80%, 
-    #3D0E61 80%, #3D0E61 100%
-    );
-}
-
 
 .ep_tm_menu {
     background-image: none; 
@@ -338,7 +321,7 @@ h3 {
 .mobile-menu {
     display:block;
     width:100%;
-    background: #8aa8bd/*e0b88f/*c99393/*e5d1a4/*dcc591/*EFD3A3*/;
+    background-color: #204F76;
     line-height: 1.6em;
     font-weight: 400;
     width:100%;
