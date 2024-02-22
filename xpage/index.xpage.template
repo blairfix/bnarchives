@@ -108,7 +108,6 @@
 		    <div class="grid-item">
 			<a class="feed-link" href="http://www.capitalaspower.com">
 			    <div style="height:100%">
-
 				<h3>Capital as Power</h3>
 				<p>CasP blog, forum, publications, working papers, data and events</p>
 			    </div>
@@ -116,11 +115,15 @@
 		    </div>
 
 
-
 		    <!-- recasp -->
 		    <div class="grid-item">
-			<h3><a href="https://capitalaspower.com/recasp/">RECASP</a></h3>
-			<p>The <i>Review of Capital as Power</i>,  an open-access, peer-reviewed journal dedicated to capital-as-power research.</p>
+			<a class="feed-link" href="http://www.capitalaspower.com/recasp">
+			    <div style="height:100%">
+
+				<h3>RECASP</h3>
+				<p>The <i>Review of Capital as Power</i>,  an open-access, peer-reviewed journal dedicated to capital-as-power research.</p>
+			    </div>
+			</a>
 		    </div>
 		</div>
 	    </div>
