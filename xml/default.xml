@@ -20,8 +20,8 @@
 		</a>
 	    </div>
 
-
-	    <div id="menu">
+	    <!-- menu -->
+	    <nav id="menu">
 		<ul class="ep_tm_menu">
 		    <li>
 			<a href="{$config{https_url}}">
@@ -86,9 +86,11 @@
 			</a>
 		    </li>
 		</ul>
-	    </div>
-
+	    </nav>
 	</div>
+
+	<!-- content -->
+
 	<div>
 	    <div class="ep_tm_page_content">
 		<h1 class="ep_tm_pagetitle">
