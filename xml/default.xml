@@ -25,11 +25,12 @@
 		<label for="show-menu" class="show-menu"><span>Menu</span><div class="lines"></div></label>
 		<input type="checkbox" id="show-menu" />
 		<ul id="menu-test">
-		    <li><a href="test">Home</a></li>
-		    <li><a href="test">About</a></li>
-		    <li><a href="test">Portfolio</a></li>
-		    <li><a href="test">News</a></li>
-		    <li><a href="test">Contact</a></li>
+		    <li><a href="/">Home</a></li>
+		    <li><a href="/">What’s New</a></li>
+		    <li><a href="/overview.html">Overview</a></li>
+		    <li><a href="/">Browse</a></li>
+		    <li><a href="/">Search</a></li>
+		    <li><a href="/">Links</a></li>
 		</ul>
 	    </nav>
 
