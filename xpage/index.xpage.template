@@ -91,15 +91,27 @@
 		<table>
 		    <tr>
 			<td><a href="https://www.youtube.com/user/Creorder">Creorder Videos</a></td>
-			<td>– Videos of CasP conferences, presentations, talks, debates and interviews</td>
+			<td>
+			    <ul>
+				<li class="homepage-list">Videos of CasP conferences, presentations, talks, debates and interviews</li>
+			    </ul>
+			</td>
 		    </tr>
 		    <tr>
 			<td><a href="http://www.capitalaspower.com">Capital as Power</a></td>
-			<td>– CasP blog, forum, publications, working papers, data and events</td>
+			<td>
+			    <ul>
+				<li class="homepage-list">CasP blog, forum, publications, working papers, data and events</li>
+			    </ul>
+			</td>
 		    </tr>
 		    <tr>
 			<td><a href="http://www.capitalaspower.com/recasp">RECASP</a></td>
-			<td>– <i>Review of Capital as Power</i> (Journal)</td>
+			<td>
+			    <ul>
+				<li class="homepage-list"><i>Review of Capital as Power</i> (Journal)</li>
+			    </ul>
+			</td>
 		    </tr>
 		</table>
 	    </div>
