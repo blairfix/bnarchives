@@ -110,7 +110,7 @@ li.homepage-list {
 }
 
 #mc_embed_signup form {
-    text-align: left;
+    text-align: left !important;
 }
 
 .ep_toolbox {
