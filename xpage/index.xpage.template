@@ -69,7 +69,11 @@
 		    </tr>
 		    <tr>
 			<td><a href="https://bnarchives.yorku.ca/links.html">Links</a></td>
-			<td>– Visit related sites</td>
+			<td>
+			    <ul>
+				<li>Visit related sites</li>
+			    </ul>
+			</td>
 		    </tr>
 		</table>
 	    </div>
