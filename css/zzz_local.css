@@ -412,3 +412,10 @@ li.homepage-list {
 
 
 
+@media screen and (max-width : 400px){
+
+    #grid {
+	grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    }
+
+}
