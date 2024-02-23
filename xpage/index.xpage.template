@@ -60,7 +60,7 @@
 			</td>
 		    </tr>
 		    <tr>
-			<td><a href="{$config{base_url}}/view">Search</a></td>
+			<td><a href="{$config{base_url}}/cgi/search/advanced">Search</a></td>
 			<td>
 			    <ul>
 				<li class="homepage-list">Search for items using a full range of fields and categories</li>
