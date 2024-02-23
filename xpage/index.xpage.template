@@ -36,7 +36,7 @@
 	    <div class="homepage_box_content">
 		<table width="100%">
 		    <tr>
-			<td><a href="https://bnarchives.yorku.ca/cgi/latest">What's New</a> </td>
+			<td><a href="{$config{perl_url}}/latest">What's New</a> </td>
 			<td>
 			    <ul>
 				<li class="homepage-list">List items added/modified during the past 6 months</li>
@@ -44,7 +44,7 @@
 			</td>
 		    </tr>
 		    <tr>
-			<td><a href="https://bnarchives.yorku.ca/overview.html">Overview</a></td>
+			<td><a href="{$config{base_url}}/overview.html">Overview</a></td>
 			<td>
 			    <ul>
 				<li class="homepage-list">Show overview and introductory material</li>
@@ -52,7 +52,7 @@
 			</td>
 		    </tr>
 		    <tr>
-			<td><a href="https://bnarchives.yorku.ca/view/">Browse</a></td>
+			<td><a href="{$config{base_url}}/view">Browse</a></td>
 			<td>
 			    <ul>
 				<li class="homepage-list">Browse items according to various categories</li>
@@ -60,7 +60,7 @@
 			</td>
 		    </tr>
 		    <tr>
-			<td><a href="https://bnarchives.yorku.ca/cgi/search/advanced">Search</a></td>
+			<td><a href="{$config{base_url}}/view">Search</a></td>
 			<td>
 			    <ul>
 				<li class="homepage-list">Search for items using a full range of fields and categories</li>
@@ -68,7 +68,7 @@
 			</td>
 		    </tr>
 		    <tr>
-			<td><a href="https://bnarchives.yorku.ca/links.html">Links</a></td>
+			<td><a href="{$config{base_url}}/links.html">Links</a></td>
 			<td>
 			    <ul>
 				<li class="homepage-list">Visit related sites</li>
