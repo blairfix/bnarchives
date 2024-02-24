@@ -21,7 +21,10 @@ while read p; do
     then 
 
 	# convert thumbnails
+	echo "---------------------------------------------------"
+	echo ""
 	echo "New item found ... generating thumbnails for item $p"
+
 	runuser -l eprints -c "/opt/eprints3/bin/epadmin redo_thumbnails bnarchives $p --verbose"
 
 	# mark item as finished
@@ -29,6 +32,7 @@ while read p; do
 
     fi
 done < /tmp/bn_urls
+
 
 # generate views
 # ----------------------------
