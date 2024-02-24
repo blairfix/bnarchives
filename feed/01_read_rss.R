@@ -11,8 +11,8 @@ rss = rss[ id:length(rss) ]
 id = grep("<link>", rss)
 links = rss[id]
 
-# keep 8 
-links = head(links, 8)
+# keep 20 
+links = head(links, 20)
 
 # clean
 links = gsub("<link>", "", links, fixed = T)
