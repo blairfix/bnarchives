@@ -201,7 +201,7 @@ li.homepage-list {
 }
 
 input.ep_form_text {
-    max-width: 30%;
+    max-width: 90%;
 }
 
 .ep_search_fields {
@@ -431,6 +431,14 @@ input.ep_form_text {
     .ep_sr_show_help img {
 	display: none;
     }
+
+
+    /* search menu fields*/
+    .ep_search_fields {
+	display: block;
+    }
+
+
 
 }
 
