@@ -439,7 +439,7 @@ input.ep_form_text {
 
     /* search menu labels */
     .ep_multi_heading { 
-	text-align: left:
+	text-align: left !important;
     }
 
 }
