@@ -352,17 +352,17 @@ li.homepage-list {
     display: block;
 }
 
+
 /* make dropdown links vertical */
 .mobile-menu li ul li {
     display: flex;
     float: none;
 }
 
-
 /* sublist */
 .mobile-menu li:hover ul{
     display: block;
-    max-width: 250px !important;
+    width: fit-content !important;
 }
 
 
