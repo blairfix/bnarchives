@@ -56,7 +56,7 @@ body {
 }
 
 
-h2.latest {
+h2.latest, h2.ep_view_page {
     font-size: 100%;
     margin-top: 30px;
     border-bottom: 1px solid #e1e1e1;
