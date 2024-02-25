@@ -302,7 +302,7 @@ li.homepage-list {
 
 /* style for dropdown links */
 .mobile-menu li:hover ul a {
-    background: #f3f3f3;
+    background: inherit;
     color: #2f3036;
     height: 40px;
     line-height: 40px;
