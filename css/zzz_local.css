@@ -435,7 +435,7 @@ input.ep_form_text {
 
     /* search menu fields*/
     .ep_search_fields {
-	display: block;
+	display: block !important;
     }
 
 
