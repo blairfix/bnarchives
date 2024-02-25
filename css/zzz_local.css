@@ -415,6 +415,11 @@ li.homepage-list {
 	display: block;
     }
 
+    /* search menu cells*/
+    .ep_option_list_cell{
+	display: block
+    }
+
 }
 
 
