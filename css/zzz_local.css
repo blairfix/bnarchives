@@ -318,12 +318,6 @@ li.homepage-list {
     display: none;
 }
 
-/* make dropdown links vertical */
-.mobile-menu li ul li {
-    display: flex;
-    float: none;
-}
-
 /* prevent text wrapping */
 .mobile-menu li ul li a {
     width: auto;
@@ -357,6 +351,13 @@ li.homepage-list {
 .mobile-menu input[type=checkbox]:checked ~ #menu-test{
     display: block;
 }
+
+/* make dropdown links vertical */
+.mobile-menu li ul li {
+    display: flex;
+    float: none;
+}
+
 
 /* sublist */
 .mobile-menu li:hover ul{
@@ -414,6 +415,13 @@ li.homepage-list {
     .mobile-menu .show-menu {
 	display:block;
     }
+
+    /* center submenu */
+    .mobile-menu li ul li {
+	display: block;
+	float: none;
+    }
+
 }
 
 
