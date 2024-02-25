@@ -432,12 +432,15 @@ input.ep_form_text {
 	display: none;
     }
 
-
     /* search menu fields*/
     .ep_table_row > div {
 	display: block !important;
     }
 
+    /* search menu labels */
+    ep_multi_heading { 
+	text-align: left:
+    }
 
 }
 
@@ -452,5 +455,4 @@ input.ep_form_text {
     #grid {
 	grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
     }
-
 }
