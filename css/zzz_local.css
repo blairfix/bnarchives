@@ -420,7 +420,6 @@ li.homepage-list {
     /* center submenu */
     .mobile-menu li ul li {
 	display: block;
-	float: none;
     }
 
 }
