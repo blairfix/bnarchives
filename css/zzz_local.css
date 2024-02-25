@@ -451,6 +451,12 @@ input.ep_form_text {
 	border-right: none !important;
     }
 
+
+    /* search images */
+    .ep_search_result_docs{
+	display: none;
+    }
+
 }
 
 
