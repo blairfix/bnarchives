@@ -253,7 +253,6 @@ li.homepage-list {
 /* code from here: https://codepen.io/deyand/pen/pvmyjw */
 
 .mobile-menu {
-    float: left;
     display:block;
     width:100%;
     background: #204F76;
