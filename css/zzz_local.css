@@ -392,7 +392,8 @@ input.ep_form_text {
 	height: 5px; 
 	width: 40px;
 	padding-right:15px;
-	display: inline-block; 
+	display: inline-block;
+	margin-top: 5px;
     }
 
     /* make dropdown links appear inline */
