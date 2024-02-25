@@ -357,6 +357,7 @@ li.homepage-list {
 .mobile-menu li ul li {
     display: flex;
     float: none;
+    background: #d1d1d1;
 }
 
 /* sublist */
