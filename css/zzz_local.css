@@ -357,7 +357,7 @@ li.homepage-list {
 .mobile-menu li ul li {
     display: flex;
     float: none;
-    background: #d1d1d1;
+    background: #f3f3f3;
 }
 
 /* sublist */
@@ -365,7 +365,6 @@ li.homepage-list {
     display: block;
     width: fit-content !important;
 }
-
 
 
 .mobile-menu li:hover ul:hover{
