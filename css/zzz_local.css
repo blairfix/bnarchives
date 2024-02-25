@@ -206,12 +206,8 @@ input.ep_form_text {
 
 .ep_search_fields {
     font-size: 90%;
-    overflow: hidden;
 }
 
-table.ep_search_fields {
-    width: 100%;
-}
 
 
 
