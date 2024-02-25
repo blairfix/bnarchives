@@ -447,6 +447,9 @@ input.ep_form_text {
 	border-top: none !important;
     }
 
+    .ep_multi_heading {
+	border-right: none !important;
+    }
 
 }
 
