@@ -201,7 +201,9 @@ li.homepage-list {
     padding: 9px 0px;
 }
 
-
+input.ep_form_text {
+    max-width: 60%;
+}
 
 
 /* -------- homepage box -------------- */
