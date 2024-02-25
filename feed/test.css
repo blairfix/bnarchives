@@ -18,7 +18,7 @@ body {
     background-color: #ffffff !important;
     font-size: 100% !important;
     height: auto !important;
-    max-width: 900px;
+    max-width: 1600px;
     margin: auto;
 
     line-height: 1.6;
@@ -37,12 +37,12 @@ body {
 .grid-container {
     display: grid;
     column-gap: 30px;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 #grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 20px;
 }
 
@@ -54,7 +54,7 @@ body {
 .feed-img{
     float:right;
     padding: 10px 10px 10px 10px;
-    width: 33%;
+    width: 50%;
 }
 
 .feed-title{

@@ -249,6 +249,7 @@ li.homepage-list {
 
 
 /* --------  main menu ------------ */
+
 /* code from here: https://codepen.io/deyand/pen/pvmyjw */
 
 .mobile-menu {
@@ -359,8 +360,7 @@ li.homepage-list {
 
 /* sublist */
 .mobile-menu li:hover ul{
-    display: block;
-    text-align: left !important;
+    display: flex;
     max-width: 250px !important;
 }
 
