@@ -352,7 +352,6 @@ li.homepage-list {
     display: block;
 }
 
-
 /* make dropdown links vertical */
 .mobile-menu li ul li {
     display: flex;
@@ -366,8 +365,7 @@ li.homepage-list {
     width: fit-content !important;
 }
 
-
-.mobile-menu li:hover ul:hover{
+.mobile-menu li ul li: hover{
     background: #ababab;
 }
 
