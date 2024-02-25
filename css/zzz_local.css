@@ -442,6 +442,12 @@ input.ep_form_text {
 	text-align: left !important;
     }
 
+    /* search text borders */
+    .ep_search_fields > div > div, .ep_table_row > div{
+	border-top: none !important;
+    }
+
+
 }
 
 
