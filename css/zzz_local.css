@@ -193,7 +193,8 @@ li.homepage-list {
 }
 
 
-/* -------- search box -------------- */
+/* -------- search -------------- */
+
 .ep_search_buttons {
     background: #f7f7f7;
     box-shadow: none;
@@ -204,6 +205,11 @@ li.homepage-list {
 input.ep_form_text {
     max-width: 60%;
 }
+
+.ep_search_fields {
+    font-size: 90%;
+}
+
 
 
 /* -------- homepage box -------------- */
