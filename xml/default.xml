@@ -22,7 +22,7 @@
 
 	    <!-- test -->
 	    <nav class="mobile-menu">
-		<label for="show-menu" class="show-menu"><span>Menu</span><div class="lines"></div></label>
+		<label for="show-menu" class="show-menu"><div class="lines"></div></label>
 		<input type="checkbox" id="show-menu" />
 		<ul id="menu-test">
 		    <li><a href="{$config{https_url}}">Home</a></li>
