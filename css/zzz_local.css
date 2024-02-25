@@ -365,8 +365,8 @@ li.homepage-list {
     width: fit-content !important;
 }
 
-.mobile-menu li:hover ul:hover: li:hover{
-    background: #ababab;
+.mobile-menu li ul li:hover{
+    background: #ababab !important;
 }
 
 
