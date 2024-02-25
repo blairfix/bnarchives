@@ -425,7 +425,12 @@ input.ep_form_text {
 
     /* search menu cells*/
     .ep_option_list_cell{
-	display: block
+	display: block;
+    }
+
+    /* search menu help image */
+    .ep_sr_show_help img {
+	display: none;
     }
 
 }
