@@ -193,7 +193,7 @@ li.homepage-list {
     background-image: none;
 }
 
-.ep_search_buttons, .ep_search_controls, .ep_search_controls_bottom  {
+.ep_search_buttons, .ep_search_controls, .ep_search_controls_bottom, .ep_view_group_by  {
     background: #f7f7f7;
     box-shadow: none;
     border-width: 0px;
