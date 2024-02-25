@@ -370,6 +370,14 @@ li.homepage-list {
 }
 
 
+.mobile-menu li ul a:hover {
+    background: #c1c1c1;
+}
+
+
+
+
+
 /* responsive styles */
 
 @media screen and (max-width : 750px){
