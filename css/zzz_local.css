@@ -254,8 +254,7 @@ li.homepage-list {
 
 .mobile-menu {
     display:block;
-    width: 2000px;
-
+    width:100%;
     background: #204F76;
     line-height: 1.6em;
     width:100%;
