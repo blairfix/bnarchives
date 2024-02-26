@@ -458,7 +458,7 @@ input.ep_form_text {
     }
 
     /* rss search */
-    .ep_export_bar dv:nth-child(2) {
+    .ep_export_bar div:nth-child(2) {
 	display: none;
     }
 
