@@ -457,7 +457,9 @@ input.ep_form_text {
 	display: none;
     }
 
-}
+    .ep_search_result div:nth-child(2) {
+	display: none;
+    }
 
 
 
