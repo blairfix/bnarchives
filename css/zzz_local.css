@@ -457,7 +457,12 @@ input.ep_form_text {
 	display: none;
     }
 
+    /* rss search */
+    .ep_export_bar dv:nth-child(2) {
+	display: none;
+    }
 
+}
 
 @media screen and (max-width : 400px){
 
