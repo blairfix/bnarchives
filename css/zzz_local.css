@@ -208,7 +208,10 @@ input.ep_form_text {
     font-size: 90%;
 }
 
-
+.ep_search_result > div {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
 
 
 /* -------- homepage box -------------- */
