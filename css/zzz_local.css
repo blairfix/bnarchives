@@ -453,10 +453,6 @@ input.ep_form_text {
 
 
     /* search images */
-    .ep_search_result_docs{
-	display: none;
-    }
-
     .ep_search_result div:nth-child(3) {
 	display: none;
     }
