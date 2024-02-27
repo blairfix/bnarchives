@@ -78,10 +78,9 @@ push @{$c->{fields}->{eprint}},
     name => 'pubdom',
     type => 'set',
     options => [qw(
-	Yes, this is public domain
+	This is public domain
 	No
 	Unspecified
-        
     )],
     input_style => 'medium',
 }
