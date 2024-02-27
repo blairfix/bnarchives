@@ -66,6 +66,12 @@ push @{$c->{fields}->{eprint}},
 },
 
 {
+    'name' => 'pubdom',
+    'input_style' => 'radio',
+    'type' => 'boolean'
+},
+
+{
     name => 'ispublished',
     type => 'set',
     options => [qw(
