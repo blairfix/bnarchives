@@ -73,7 +73,7 @@ push @{$c->{fields}->{eprint}},
     'type' => 'set'
 },
 
-# public doman
+# public domain
 {
     'name' => 'pubdom',
     'input_style' => 'radio',
