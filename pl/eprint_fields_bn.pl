@@ -82,7 +82,7 @@ push @{$c->{fields}->{eprint}},
 	'No',
 	'Unspecified'
     ]
-}
+},
 
 
 # report number
