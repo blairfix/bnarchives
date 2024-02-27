@@ -79,8 +79,7 @@ push @{$c->{fields}->{eprint}},
     type => 'set',
     options => [
 	'Yes',
-	'No',
-	'Unspecified'
+	'No'
     ]
 },
 
