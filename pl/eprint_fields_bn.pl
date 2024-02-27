@@ -75,10 +75,17 @@ push @{$c->{fields}->{eprint}},
 
 # public domain
 {
-    'name' => 'pubdom',
-    'input_style' => 'radio',
-    'type' => 'boolean'
-},
+    name => 'pubdom',
+    type => 'set',
+    options => [qw(
+	Yes, this is public domain
+	No
+	Unspecified
+        
+    )],
+    input_style => 'medium',
+}
+
 
 # report number
 {
