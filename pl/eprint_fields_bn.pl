@@ -78,7 +78,7 @@ push @{$c->{fields}->{eprint}},
     name => 'pubdom',
     type => 'set',
     options => [qw(
-	This is public domain
+	Yes
 	No
 	Unspecified
     )],
