@@ -105,8 +105,11 @@
     <phrase id="eprint_fieldopt_month_nov">November</phrase>
     <phrase id="eprint_fieldopt_month_oct">October</phrase>
     <phrase id="eprint_fieldopt_month_sep">September</phrase>
-    <phrase id="eprint_radio_pubdom"><pin name="true"></pin>Yes, it is public domain.<br /><pin name="false"></pin>No.</phrase>
-    <phrase id="eprint_radio_refereed"><pin name="true"></pin>Yes, this version has been refereed.<br /><pin name="false"></pin>No, this version has not been refereed.</phrase>
+
+    <phrase id="eprint_fieldopt_pubdom_Yes">Public Domain</phrase>
+    <phrase id="eprint_fieldopt_pubdom_No">Not Public Domain</phrase>
+    <phrase id="eprint_fieldopt_pubdom_Unspecified">Unspecified</phrase>
+
 
 
 <!-- The following phrases were added automatically by migration script. -->
