@@ -122,8 +122,9 @@ li.homepage-list {
     height: 500px !important;
 }
 
-#outerImageContainer {
+#lightbox, #outerImageContainer {
     width: fit-content !important;
+    max-width 100% !important;
 }
 
 /* -------- homepage feed -------- */
