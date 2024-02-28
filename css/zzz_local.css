@@ -124,6 +124,7 @@ li.homepage-list {
 
 #outerImageContainer {
     width: fit-content !important;
+    max-width: 100%;
 }
 
 /* -------- homepage feed -------- */
