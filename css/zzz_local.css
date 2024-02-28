@@ -118,10 +118,13 @@ li.homepage-list {
 
 
 /*-------- previews --------------- */
-#imageContainer{
+#imageContainer {
     height: 500px !important;
 }
 
+#outerImageContainer {
+    width: fit-content !important;
+}
 
 /* -------- homepage feed -------- */
 
