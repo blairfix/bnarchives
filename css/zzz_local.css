@@ -124,7 +124,7 @@ li.homepage-list {
 
 #lightbox, #outerImageContainer {
     width: fit-content !important;
-    max-width 100% !important;t
+    max-width: 100% !important;
 }
 
 /* -------- homepage feed -------- */
