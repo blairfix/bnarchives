@@ -115,7 +115,12 @@ li.homepage-list {
     margin:0 auto;
 }
 
+.ep_tm_footer {
+   border-top-width: 1px;
+   font-size: 80%;
+   font-color: #454545;
 
+}
 
 /*-------- previews --------------- */
 #imageContainer {
