@@ -115,7 +115,7 @@ li.homepage-list {
     margin:0 auto;
 }
 
-.ep_tm_footer {
+.ep_tm_footer.ep_noprint {
    border-top-width: 1px;
    font-size: 80%;
    font-color: #454545;
