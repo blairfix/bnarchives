@@ -1,5 +1,5 @@
 [Unit]
-Description=update site 
+Description=update site every day at 4 am 
 
 [Timer]
 OnCalendar=*-*-* 4:00:00

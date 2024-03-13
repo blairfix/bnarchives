@@ -1,8 +1,8 @@
 [Unit]
-Description=generate feed every 4 hours
+Description=generate feed every 6 hours
 
 [Timer]
-OnCalendar=00/2:10
+OnCalendar=00/6:10
 RandomizedDelaySec=60
 Persistent=true
 Unit=feed.service

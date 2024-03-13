@@ -1,5 +1,5 @@
 [Unit]
-Description=start eprints indexer
+Description=start eprints indexer on boot
 
 [Timer]
 OnBootSec=15min
