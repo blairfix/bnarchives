@@ -305,7 +305,7 @@ input.ep_form_text {
 /* hover state for top level links */
 .mobile-menu li:hover a {
     color: #4db3ff;
-    background-color: #3366bb;
+    background-color: #8cd3ff;
 }
 
 /* style for dropdown links */
