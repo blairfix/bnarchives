@@ -36,6 +36,8 @@ body {
 
 .ep_tm_page_content {
     max-width: 900px;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 #wrapper {
