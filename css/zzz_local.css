@@ -18,14 +18,11 @@
 
 /*-------- body -------------------- */
 body {
-    padding-left: 2em;
-    padding-right: 2em;
     background-color: #ffffff !important;
     font-size: 100% !important;
     height: auto !important;
 
     margin: auto;
-
     line-height: 1.6;
 
     font-family: system-ui, sans-serif !important;
