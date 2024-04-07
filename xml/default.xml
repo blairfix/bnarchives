@@ -3,6 +3,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
     <head>
 
+	<!-- plausible script-->
+	<script defer data-domain="bnarchives.economicsfromthetopdown.com" src="http://stats.economicsfromthetopdown.com/js/script.js"></script>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
