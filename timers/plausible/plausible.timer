@@ -2,7 +2,7 @@
 Description=start plausible on boot
 
 [Timer]
-OnBootSec=1sec
+OnBootSec=15sec
 Persistent=true
 Unit=plausible.service
 

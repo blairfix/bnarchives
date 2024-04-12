@@ -3,7 +3,7 @@
 cp *.timer *.service /etc/systemd/system/
 
 systemctl daemon-reload
-systemctl enable indexer.timer
-systemctl start indexer.timer
-systemctl restart indexer.timer
+systemctl enable plausible.timer
+systemctl start plausible.timer
+systemctl restart plausible.timer
 
