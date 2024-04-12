@@ -2003,22 +2003,21 @@ C<archive>.
 =cut
 ######################################################################
 
+# stop items in thread from being hidden
 
-# change all no_search to show
-
-sub added_to_thread
-{
-	my( $self, $field, $parent ) = @_;
-
-	return if $parent->value( "eprint_status" ) ne "archive";
-
-	# we are no longer visible
-	if( $self->value( "metadata_visibility" ) eq "no_search" )
-	{
-		$self->set_value( "metadata_visibility", "show" );
-		$self->commit;
-	}
-}
+#sub added_to_thread
+#{
+#	my( $self, $field, $parent ) = @_;
+#
+#	return if $parent->value( "eprint_status" ) ne "archive";
+#
+#	# we are no longer visible
+#	if( $self->value( "metadata_visibility" ) eq "show" )
+#	{
+#		$self->set_value( "metadata_visibility", "no_search" );
+#		$self->commit;
+#	}
+#}
 
 ######################################################################
 =pod
