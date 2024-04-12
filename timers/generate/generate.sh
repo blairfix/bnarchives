@@ -4,11 +4,18 @@ mkdir /home/eprints/thumbnails
 touch /home/eprints/thumbnails/finished
 
 
+
+# get bnarchives feed, get item numbers
+# ----------------------------
+
+# scrape urls
+/home/eprints/feed/runall.sh
+
+head /home/eprints/feed/bn_urls.txt -n 12 | sed 's/[^0-9]*//g' > /tmp/bn_urls
+
 # generate thumbnails
 # ----------------------------
 
-# get bnarchives feed, get item numbers
-head /home/eprints/feed/bn_urls.txt -n 12 | sed 's/[^0-9]*//g' > /tmp/bn_urls
 
 # loop over item numbers, see if they've been done before
 # if not, generate thumbnails

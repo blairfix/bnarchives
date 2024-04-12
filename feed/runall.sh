@@ -11,7 +11,7 @@ do
 done
 
 # generate html
-runuser -l eprints -c '/opt/eprints3/bin/generate_static bnarchives'
+#runuser -l eprints -c '/opt/eprints3/bin/generate_static bnarchives'
 
 
 # reload
