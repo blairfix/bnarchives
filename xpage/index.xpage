@@ -23,7 +23,7 @@
 	    <div class="homepage_box_content">
 		<table width="100%">
 		    <tr>
-			<td><a href="{$config{perl_url}}/latest">What's New</a> </td>
+			<td class="hp-td"><a href="{$config{perl_url}}/latest">What's New</a> </td>
 			<td>
 			    <ul>
 				<li class="homepage-list">List items added/modified during the past 6 months</li>
@@ -31,7 +31,7 @@
 			</td>
 		    </tr>
 		    <tr>
-			<td><a href="{$config{base_url}}/overview.html">Overview</a></td>
+			<td class="hp-td"><a href="{$config{base_url}}/overview.html">Overview</a></td>
 			<td>
 			    <ul>
 				<li class="homepage-list">Show overview and introductory material</li>
@@ -39,7 +39,7 @@
 			</td>
 		    </tr>
 		    <tr>
-			<td><a href="{$config{base_url}}/view">Browse</a></td>
+			<td class="hp-td"><a href="{$config{base_url}}/view">Browse</a></td>
 			<td>
 			    <ul>
 				<li class="homepage-list">Browse items according to various categories</li>
@@ -47,7 +47,7 @@
 			</td>
 		    </tr>
 		    <tr>
-			<td><a href="{$config{base_url}}/cgi/search/advanced">Search</a></td>
+			<td class="hp-td"><a href="{$config{base_url}}/cgi/search/advanced">Search</a></td>
 			<td>
 			    <ul>
 				<li class="homepage-list">Search for items using a full range of fields and categories</li>
@@ -55,7 +55,7 @@
 			</td>
 		    </tr>
 		    <tr>
-			<td><a href="{$config{base_url}}/links.html">Links</a></td>
+			<td class="hp-td"><a href="{$config{base_url}}/links.html">Links</a></td>
 			<td>
 			    <ul>
 				<li class="homepage-list">Visit related sites</li>
@@ -77,7 +77,7 @@
 	    <div class="homepage_box_content">
 		<table>
 		    <tr>
-			<td><a href="https://www.youtube.com/user/Creorder">Creorder Videos</a></td>
+			<td class="hp-td"><a href="https://www.youtube.com/user/Creorder">Creorder Videos</a></td>
 			<td>
 			    <ul>
 				<li class="homepage-list">Videos of CasP conferences, presentations, talks, debates and interviews</li>
@@ -85,7 +85,7 @@
 			</td>
 		    </tr>
 		    <tr>
-			<td><a href="http://www.capitalaspower.com">Capital as Power</a></td>
+			<td class="hp-td"><a href="http://www.capitalaspower.com">Capital as Power</a></td>
 			<td>
 			    <ul>
 				<li class="homepage-list">CasP blog, forum, publications, working papers, data and events</li>
@@ -93,7 +93,7 @@
 			</td>
 		    </tr>
 		    <tr>
-			<td><a href="http://www.capitalaspower.com/recasp">RECASP</a></td>
+			<td class="hp-td"><a href="http://www.capitalaspower.com/recasp">RECASP</a></td>
 			<td>
 			    <ul>
 				<li class="homepage-list"><i>Review of Capital as Power</i> (Journal)</li>

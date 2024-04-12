@@ -246,7 +246,7 @@ input.ep_form_text {
     padding-left: 10pt;
     padding-right: 10pt;
     padding-top: 8pt;
-    padding-bottom: 8pt;
+    padding-bottom: 0pt;
     font-size: 110%;
     font-weight: bold;
     text-decoration: none !important;
@@ -259,7 +259,9 @@ input.ep_form_text {
     padding-bottom: 10pt;
 }
 
-
+.hp-td{
+    width: 17%;
+}
 
 
 /* --------  main menu ------------ */
