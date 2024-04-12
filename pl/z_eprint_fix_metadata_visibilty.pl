@@ -32,11 +32,11 @@ sub added_to_thread
 	return if $parent->value( "eprint_status" ) ne "archive";
 
 	# we are no longer visible
-	if( $self->value( "metadata_visibility" ) eq "show" )
+	if( $self->value( "metadata_visibility" ) eq "no_search" )
 	{
-		# Don't set this value - we want everything to be searchable!
-		# $self->set_value( "metadata_visibility", "no_search" );
-		# $self->commit;
+		# set to show
+		$self->set_value( "metadata_visibility", "show" );
+		$self->commit;
 	}
 }
 
