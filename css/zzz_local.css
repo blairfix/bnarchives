@@ -259,9 +259,14 @@ input.ep_form_text {
     padding-bottom: 10pt;
 }
 
-.hp-td{
+.hp-td1{
     width: 20%;
 }
+
+.hp-td2{
+    width: 80%;
+}
+
 
 
 /* --------  main menu ------------ */
