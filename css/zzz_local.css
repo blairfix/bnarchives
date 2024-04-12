@@ -234,11 +234,12 @@ input.ep_form_text {
     margin-top: 10pt;
     margin-bottom: 10pt;
     border: 1px solid #eeeeee;
+    background-color: #e8e8ff;
 }
 
 
 .homepage_heading_panel {
-    background-color: #f7f7f7;
+    background-color: #e8e8ff;
 }
 
 .homepage_box_heading {
