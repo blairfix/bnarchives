@@ -1,0 +1,10 @@
+[Unit]
+Description=start plausible on boot
+
+[Timer]
+OnBootSec=1sec
+Persistent=true
+Unit=plausible.service
+
+[Install]
+WantedBy=timers.target

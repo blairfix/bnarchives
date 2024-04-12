@@ -1,0 +1,9 @@
+[Unit]
+Description=start plausible
+
+[Service]
+Type=simple
+ExecStart=/home/setup/03_maintainance/plausible/05_run.sh
+
+[Install]
+WantedBy=timers.target
