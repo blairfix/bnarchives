@@ -210,8 +210,11 @@ li.homepage-list {
 .ep_search_buttons, .ep_search_controls, .ep_search_controls_bottom, .ep_view_group_by, .ep_toolbox_content  {
     background: #e8e8ff;
     box-shadow: none;
-    border-width: 0px;
     padding: 9px 0px;
+    background-image: url(images/bar_solid_24px.png);
+    background-repeat: repeat-x;
+    border: 1px solid #ccc;
+
 }
 
 input.ep_form_text {
