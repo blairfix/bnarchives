@@ -417,10 +417,9 @@ input.ep_form_text {
     font-size: 95%;
 }
 
-#mc-button {
+#mc-button .button {
     display: inline-block;
     font-size: 95%;
-    height: 30px;
     line-height: 30px;
 }
 
