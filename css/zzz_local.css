@@ -233,8 +233,8 @@ input.ep_form_text {
 /* -------- homepage box -------------- */
 
 .homepage_box {
-    margin-top: 10pt;
-    margin-bottom: 10pt;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
     border: 1px solid #ccc;
     background-color: #e8e8ff;
     background-image: url(images/bar_solid_24px.png);
