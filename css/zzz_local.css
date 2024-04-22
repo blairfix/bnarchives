@@ -412,6 +412,8 @@ input.ep_form_text {
 #mc_embed_signup input.email { 
     font-family: sans-serif;
     height: 30px;
+    width: fit-content;
+    max-width: 500px
     font-size: 95%;
 }
 
