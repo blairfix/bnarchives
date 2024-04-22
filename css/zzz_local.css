@@ -493,8 +493,8 @@ input.ep_form_text {
     }
     
     /* search menu columns */
-    div.ep_multi_heading.ep_table_cell {
-	width: 40%;
+    .ep_multi_heading.ep_table_cell {
+	width: 40% !important;
     }
 
     /* search text borders */
