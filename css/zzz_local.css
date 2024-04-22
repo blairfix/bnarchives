@@ -11,9 +11,9 @@
  * 
  */
 
- html {
+html {
     overflow:scroll;    
-  }
+}
 
 
 /*-------- body -------------------- */
@@ -120,9 +120,9 @@ li.homepage-list {
 }
 
 .ep_tm_footer{
-   border-top-width: 1px;
-   font-size: 80%;
-   color: #454545;
+    border-top-width: 1px;
+    font-size: 80%;
+    color: #454545;
 
 }
 
@@ -401,6 +401,26 @@ input.ep_form_text {
 
 
 
+/* mailchimp css */
+#mc_embed_signup {
+    clear:left; 
+    width:100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#mc_embed_signup input.email { 
+    font-family: sans-serif;
+    height: 30px;
+    font-size: 95%;
+}
+
+#mc-button {
+    display: inline-block;
+    font-size: 95%;
+    height: 30px;
+    line-height: 30px;
+}
 
 
 /* responsive styles */
