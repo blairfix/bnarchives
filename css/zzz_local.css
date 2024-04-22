@@ -493,7 +493,7 @@ input.ep_form_text {
     }
     
     /* search menu columns */
-    .ep_multi_heading.ep_table_cell {
+    div.ep_multi_heading.ep_table_cell {
 	width: 40%;
     }
 
