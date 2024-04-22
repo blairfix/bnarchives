@@ -423,6 +423,14 @@ input.ep_form_text {
 }
 
 
+/* search menu columns */
+.ep_multi_heading.ep_table_cell {
+    width: 40% !important;
+}
+
+
+
+
 /* responsive styles */
 
 @media screen and (max-width : 750px){
@@ -490,20 +498,12 @@ input.ep_form_text {
     /* search menu labels */
     .ep_multi_heading { 
 	text-align: left !important;
+	border-right: none !important;
     }
-    
-    /* search menu columns */
-    .ep_multi_heading.ep_table_cell {
-	width: 40% !important;
-    }
-
-    /* search text borders */
+ 
+      /* search text borders */
     .ep_search_fields > div > div, .ep_table_row > div{
 	border-top: none !important;
-    }
-
-    .ep_multi_heading {
-	border-right: none !important;
     }
 
 
