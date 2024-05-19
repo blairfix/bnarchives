@@ -1,0 +1,11 @@
+[Unit]
+Description=restart apache server
+
+[Timer]
+OnCalendar=*-*-* 1:00:00
+RandomizedDelaySec=60
+Persistent=true
+Unit=apache_restart.service
+
+[Install]
+WantedBy=timers.target

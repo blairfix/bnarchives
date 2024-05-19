@@ -1,0 +1,9 @@
+[Unit]
+Description=restart apache server
+
+[Service]
+Type=simple
+ExecStart=systemctl restart apache2.service
+
+[Install]
+WantedBy=timers.target
