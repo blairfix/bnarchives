@@ -3,7 +3,7 @@
 cp *.timer *.service /etc/systemd/system/
 
 systemctl daemon-reload
-systemctl enable generate.timer
-systemctl start generate.timer
-systemctl restart generate.timer
+systemctl enable apache_restart.timer
+systemctl start apache_restart.timer
+systemctl restart apache_restart.timer
 
