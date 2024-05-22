@@ -1,0 +1,9 @@
+[Unit]
+Description=backup bnarchives
+
+[Service]
+Type=simple
+ExecStart=/home/setup/03_maintainance/backup/backup.sh
+
+[Install]
+WantedBy=timers.target

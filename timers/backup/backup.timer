@@ -1,0 +1,11 @@
+[Unit]
+Description=backup bnarchives
+
+[Timer]
+OnCalendar=*-*-* 2:00:00
+RandomizedDelaySec=60
+Persistent=true
+Unit=backup.service
+
+[Install]
+WantedBy=timers.target
