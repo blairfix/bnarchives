@@ -4,8 +4,16 @@ $c->{host} = 'bnarchives.net';
 $c->{port} = '80';
 $c->{aliases} = [
                   {
-                    'name' => 'localhost',
+                    'redirect' => 'yes',
+                    'name' => 'localhost'
+                  },
+                  {
+                    'name' => 'bnarchives.yorku.ca',
                     'redirect' => 'yes'
+                  },
+                  {
+                    'redirect' => 'yes',
+                    'name' => 'bnarchives.economicsfromthetopdown.ca'
                   }
                 ];
 $c->{securehost} = 'bnarchives.net';
