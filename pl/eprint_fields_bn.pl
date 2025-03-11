@@ -83,12 +83,6 @@ push @{$c->{fields}->{eprint}},
     ]
 },
 
-# number (with longer input)
-{
-    name => 'number',
-    type => 'text',
-    maxlength => 100,
-},
 
 # report number
 {
