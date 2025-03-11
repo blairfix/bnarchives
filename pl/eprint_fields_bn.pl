@@ -86,6 +86,8 @@ push @{$c->{fields}->{eprint}},
 
 # report number
 {
+
+    'maxlength' => 256,
     'name' => 'reportno',
     'type' => 'text'
 },
