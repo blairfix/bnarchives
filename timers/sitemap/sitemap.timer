@@ -1,0 +1,11 @@
+[Unit]
+Description=generate sitemap
+
+[Timer]
+OnCalendar=weekly
+RandomizedDelaySec=100
+Persistent=true
+Unit=sitemap.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=generate sitemap
+
+[Service]
+Type=simple
+ExecStart=/home/eprints/bin/gen_sitemap.sh
+
+[Install]
+WantedBy=timers.target
