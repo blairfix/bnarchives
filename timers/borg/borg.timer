@@ -1,0 +1,11 @@
+[Unit]
+Description=borg backup bnarchives
+
+[Timer]
+OnCalendar=daily
+RandomizedDelaySec=60
+Persistent=true
+Unit=borg.service
+
+[Install]
+WantedBy=timers.target

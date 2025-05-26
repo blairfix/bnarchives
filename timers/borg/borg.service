@@ -1,0 +1,9 @@
+[Unit]
+Description=borg backup bnarchives
+
+[Service]
+Type=simple
+ExecStart=/home/setup/03_maintainance/borg/backup.sh
+
+[Install]
+WantedBy=timers.target
